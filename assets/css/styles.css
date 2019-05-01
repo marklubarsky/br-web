@@ -1,0 +1,723 @@
+:root {
+    --indent: 15px;
+}
+
+
+.header-button-signup {
+    border-radius: 21px;
+    border: 2px solid #7DA444;
+    background-color: transparent;
+    opacity: 1;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    /*font-style: normal;*/
+    color: #7DA444;
+    margin-top: 2px;
+    /*margin-bottom: 14px;*/
+    /*margin-right: 14px;*/
+    /*margin-left: 14px;*/
+}
+
+.header-location {
+    border-radius: 21px;
+    /*border: 2px solid #7DA444;*/
+    background-color: transparent;
+    opacity: 1;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    /*font-style: normal;*/
+    color: #737C56;
+    margin-left: 37px;
+    margin-top: -14px;
+}
+
+.header-logo {
+    margin-top: 0px;
+    /*margin-top: -20px;*/
+}
+
+.banner {
+    /*height: 300px;*/
+    /*width: 100%;*/
+}
+
+.banner img {
+    /*height: 300px;*/
+    width: 100%;
+}
+
+.banner-text {
+    /*background: url("/assets/css/img/home/banner.jpg") repeat;*/
+    margin-left: var(--indent);
+    margin-top: -170px;
+    padding-bottom: 25px;
+
+
+}
+
+.banner-title {
+    color: #684D3A;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /*padding-bottom: 25px;*/
+
+    /*text-align: center;*/
+}
+
+.banner-title span{
+    font-weight: 400;
+}
+
+.banner-learn-more a {
+    color: #7DA444;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.highlight-section {
+    background-color: #4EADC2;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+
+.highlight-section-text {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-left: var(--indent);
+    margin-right: var(--indent);
+    padding-bottom: 15px;
+    text-align: left;
+    opacity: 0.9;
+}
+
+.highlight-section-text img{
+    color: #FFFFFF;
+
+}
+
+
+.highlight-section-special {
+    /*position: absolute;*/
+    margin-left: var(--indent);
+    margin-right: var(--indent);
+}
+
+.highlight-section-special a {
+    color: #D32323;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+
+}
+
+
+.info-section {
+    background-color: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.info-section img {
+    width: 100%;
+    display: block;
+}
+
+.info-section-text {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 20px;
+    color: #684E3A;
+    line-height: 30px;
+    margin-left: var(--indent);
+    margin-right: var(--indent);
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /*margin-top: -500px;*/
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /*transform: translate( -70%, -50% );*/
+    text-align: left;
+}
+
+.info-section-text img{
+    /*color: #FFFFFF;*/
+
+}
+
+
+.info-section-special {
+    /*position: absolute;*/
+    margin-left: var(--indent);
+    margin-right: var(--indent);
+}
+
+.info-section-special a {
+    color: #D32323;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.info-section-action {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -160px;
+}
+
+.info-section-action a {
+    margin-bottom: 10px;
+}
+
+
+.details-section {
+    background-color: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.details-section img {
+    width: 100%;
+    display: block;
+}
+
+.details-section-text {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-left: var(--indent);
+    margin-right: var(--indent);
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /*margin-top: -500px;*/
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /*transform: translate( -70%, -50% );*/
+    text-align: left;
+}
+
+.details-section-description {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-left: var(--indent);
+    margin-right: var(--indent);
+    text-align: left;
+    padding-top: 16px;
+}
+
+.details-section-text img{
+    /*color: #FFFFFF;*/
+
+}
+
+
+.details-section-special {
+    /*position: absolute;*/
+    margin-left: var(--indent);
+    margin-right: var(--indent);
+}
+
+.details-section-special a {
+    color: #D32323;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.details-section-action {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -160px;
+}
+
+.details-section-action a {
+    margin-bottom: 10px;
+}
+
+.details-section span.highlight-name{
+    font-weight: 500;
+}
+
+
+
+.social-button img{
+    color: #4968B4;
+}
+
+.details-section-video {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -400px;
+}
+
+.action-button-green {
+    border-radius: 21px;
+    border: 2px solid #7DA441;
+    background-color: #7DA441;
+    border-color: #7DA441;
+    opacity: 1;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    /*font-style: normal;*/
+    color: #FFFFFF;
+    margin-top: 2px;
+    /*padding: 6px 6px 6px 6px;*/
+
+    letter-spacing: 0.1em;
+    /*margin-bottom: 14px;*/
+    /*margin-right: 14px;*/
+    /*margin-left: 14px;*/
+}
+
+
+
+/*.highlight-section-special a:visited {*/
+    /*color: #D32323;*/
+    /*font-family: 'Montserrat Regular';*/
+    /*font-size: 16px;*/
+    /*line-height: 30px;*/
+
+/*}*/
+
+.info-section-special-icon {
+    color: #D32323 !important;
+}
+
+.scroll-top {
+    margin-top: -12px;
+}
+
+
+
+
+
+
+
+/* TEST */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+body {
+    font-family: "Avenir Next" !important;
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 18px;
+    overflow: auto;
+    margin-top:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #34495e;
+}
+
+.content-head h1 {
+    /*margin: 2em 0;*/
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.7em;
+    position: relative;
+}
+.content-head h2 {
+    font-weight: 300;
+    padding: 0;
+    margin-top: 0;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+ * -- LAYOUT STYLES --
+ * These are some useful classes which I will need
+ */
+
+.is-center {
+    text-align: center;
+}
+
+.yelp {
+    padding:1em;
+}
+
+
+
+/*
+ * -- PURE BUTTON STYLES --
+ * I want my pure-button elements to look a little different
+ */
+.action-button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+a.action-button-primary {
+    /* Rectangle 2: */
+    background: #B53C3C;
+    border: 1px solid #979797;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 8px;
+
+    font-size: 120%;
+
+    /* Schedule your sessio: */
+    font-family: AvenirNext-DemiBold;
+    font-size: 14px;
+    color: rgba(255,255,255,0.88);
+    letter-spacing: 0.05em;
+    text-shadow: 0 1px 0 rgba(255,254,255,0.50);
+}
+
+
+.menu .pure-menu-selected a {
+    color: lightgrey;
+}
+
+.menu a {
+    color: darkgrey;
+}
+.menu li a:hover,
+.menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+.action-link a {
+    color: darkgrey;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+span.action-link.regular, .action-link.regular a {
+    color: darkgrey;
+    font-size: 1em;
+    margin: 0;
+}
+
+.action-link a:hover,
+.action-link a:focus
+{
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+.video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    /*padding-top:20px;*/
+    /*padding-top:30px;*/
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+/*.intro-video {*/
+/*width: 560px;*/
+/*height: 315px;*/
+/*}*/
+
+
+/*
+ * -- CONTENT STYLES --
+ * This represents the content area (everything below the blue section)
+ */
+
+.header {
+    text-align: center;
+    /*height: 42px;*/
+    background: white;
+    position:fixed;
+    z-index: 99;
+    height:70px;
+    /*margin-bottom:20em;*/
+    width:100%;
+    /*margin:0px auto;*/
+    top:0;
+    /* Rectangle 3: */
+    /*opacity: 1;*/
+    /*opacity: 0.25;*/
+    /*background: #F7F7F3;*/
+    /*border: 1px solid #E9E8DC;*/
+    padding-left: 20px;
+    /*margin-right: 10px;*/
+}
+#content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: relative;
+    /*top: 87%;*/
+    /*width: 70%;*/
+    /*min-height: 12%;*/
+    z-index: 97;
+    background: white;
+    margin: 0em 0em 0 0em;
+}
+
+/* We want to give the content area some more padding */
+.content {
+    /*padding: 1em 1em 3em;*/
+    /*align-content: center;*/
+    /*min-height: 150px;*/
+}
+
+.content-quote {
+    font-style: italic;
+}
+
+.content-head {
+    font-weight: 400;
+    /*text-transform: uppercase;*/
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+/* This is a modifier class used when the content-head is inside a ribbon */
+.content-head-ribbon {
+    color: white;
+}
+
+/* This is the class used for the content sub-headers (<h3>) */
+.content-subhead {
+    color: #1f8dd6;
+}
+.content-subhead i {
+    margin-right: 7px;
+}
+
+/* This is the class used for the dark-background areas. */
+.ribbon {
+    background: #2d3e50;
+    color: #aaa;
+}
+
+/* This is the class used for the footer */
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    background: #0FA0CE;
+    width:100%;
+    font-size: 1em;
+    background: #F7F7F3;
+    border: 1px solid #E9E8DC;
+}
+
+.img-area {
+    margin: 2em 2em 2em 2em;
+}
+
+.menu-wrapper {
+    top: 55px;
+    margin-bottom: 1em;
+    -webkit-font-smoothing: antialiased;
+    height: 2.1em;
+    overflow: hidden;
+    -webkit-transition: height 0.1s;
+    -moz-transition: height 0.1s;
+    -ms-transition: height 0.1s;
+    transition: height 0.1s;
+    position: relative;
+    /*z-index:-21;*/
+}
+
+.menu-wrapper.open {
+    height: 14em;
+    line-height: 0.8;
+    /*top:54px;*/
+    background: #F7F7F3;
+    border-radius: 3px;
+    position:relative;
+    /*z-index:99;*/
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+}
+
+.right-menu, .phone-header {
+    text-align: right;
+}
+
+.left-menu {
+    text-align: left;
+}
+
+.menu-toggle {
+    width: 34px;
+    height: 68px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index:99;
+    color: #7DA444;
+}
+
+.menu-toggle .bar {
+    background-color: #7DA444;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 00px;
+    position: absolute;
+    top: 18px;
+    right: 7px;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.menu-toggle .bar:first-child {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(+6px);
+}
+
+.menu-toggle .bar:last-child {
+    -webkit-transform: translateY(-12px);
+    -moz-transform: translateY(-12px);
+    -ms-transform: translateY(-12px);
+    transform: translateY(-6px);
+}
+
+.menu-toggle.x .bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.menu-toggle.x .bar:last-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/*
+ * Non- desktop: close menu
+ */
+@media (max-width: 64em) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-wrapper.open .menu-can-transform {
+        position:fixed;
+        top: 3em;
+        text-align: center;
+        width: 100%;
+        /*overflow: visible;*/
+        /*z-index:98;*/
+        z-index:99;
+        line-height: 0.8;
+        /*top:54px;*/
+        background: #F7F7F3;
+        border-radius: 3px;
+    }
+
+    .menu-wrapper.open {
+        position: fixed;
+        overflow: visible;
+        z-index:99;
+        height: 15em;
+        opacity: 0.9;
+    }
+
+    #menu .pure-menu-horizontal {
+        padding: 2em;
+    }
+
+    .right-menu .left-menu{
+        text-align: center;
+    }
+
+    #content-wrapper {
+        margin-top: 1em;
+    }
+
+    #content-wrapper.x {
+        margin-top: 4em;
+    }
+
+
+    .content-head {
+        font-weight: 400;
+        /*text-transform: uppercase;*/
+        letter-spacing: 0.1em;
+        margin: 2em 0 0.5em;
+    }
+
+    .content-head h1 {
+        font-size: 1.4em;
+        font-weight: 300;
+        line-height: 1.3em;
+        position: relative;
+    }
+    .content-subhead h2 {
+        font-size: 1.2em;
+        font-weight: 300;
+        padding: 0;
+        margin-top: 0.5em;
+        margin-bottom: 0;
+    }
+}
+
+

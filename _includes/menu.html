@@ -1,0 +1,24 @@
+<div class="pure-g menu-wrapper" id="menu">
+    <div class="pure-u-1">
+        <div class="pure-menu">
+            <!--<a href="#" class="pure-menu-heading menu-branding">&nbsp;</a>-->
+            <a href="#" class="menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s><s class="bar"></s></a>
+        </div>
+    </div>
+
+    <div class="pure-u-1">
+        <div class="menu pure-menu pure-menu-horizontal menu-can-transform">
+            <ul class="pure-menu-list">
+                {% assign menu_items = site.html_pages | sort: 'menu_order' %}
+                {% for p in menu_items %}
+                    {% if p.title == page.title %}
+                        {% assign select_tag = ' pure-menu-selected' %}
+                    {% else %}
+                        {% assign select_tag = '' %}
+                    {% endif %}
+                    <li class="pure-menu-item{{ select_tag }}"><a href="{{ p.url }}" class="pure-menu-link">{{ p.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

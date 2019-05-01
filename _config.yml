@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Move Better Now | Pilates & Fedenkrais studio in San Mateo
+company: Move Better Now
+email: info@movebetternow.com
+phone: (650)&nbsp;703&#8209;2010
+description: Cozy & quiet Pilates & Feldenkrais studio in San Mateo. Gentle & caring approach. Private & small-group classes and hands-on sessions.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://www.movebetterpilates.com
+yelp: http://yelp.com/biz/move-better-now-san-mateo-2?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
