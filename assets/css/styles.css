@@ -2,7 +2,6 @@
     --indent: 15px;
 }
 
-
 .header-button-signup {
     border-radius: 21px;
     border: 2px solid #7DA444;
@@ -40,11 +39,13 @@
 .banner {
     /*height: 300px;*/
     /*width: 100%;*/
+    display: inline-block;
 }
 
 .banner img {
     /*height: 300px;*/
     width: 100%;
+    display: inline-block;
 }
 
 .banner-text {
@@ -52,8 +53,13 @@
     margin-left: var(--indent);
     margin-top: -170px;
     padding-bottom: 25px;
+}
 
-
+.banner-text-single {
+    /*background: url("/assets/css/img/home/banner.jpg") repeat;*/
+    margin-left: var(--indent);
+    margin-top: -90px;
+    padding-bottom: 25px;
 }
 
 .banner-title {
@@ -182,7 +188,7 @@
 
 .info-section img {
     width: 100%;
-    display: block;
+    display: inline-block;
 }
 
 .info-section-text {
@@ -236,26 +242,37 @@
 
 
 .details-section {
-    background-color: transparent;
+    background-color: #6D764E;
     padding-top: 0px;
     padding-bottom: 0px;
     position: relative;
-    display: inline-block;
+    display: block;
+    vertical-align: top;
     width: 100%;
+}
 
+.details-section-long {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    display: block;
+    width: 100%;
+    vertical-align: top;
 }
 
 .details-section img {
     width: 100%;
     display: block;
+    line-height:0
 }
 
-.details-section-text {
+.details-section-text-over-image {
     font-family: 'Montserrat';
     font-weight: 300;
     font-size: 16px;
     color: #FFFFFF;
     line-height: 24px;
+    letter-spacing: 0.015em;
     margin-left: var(--indent);
     margin-right: var(--indent);
 
@@ -265,6 +282,37 @@
     position: absolute;
     top: 0%;
     left: 0%;
+    /*transform: translate( -70%, -50% );*/
+    text-align: left;
+    vertical-align: top;
+}
+
+.dark {
+    color: #684E3A;
+    background-color: transparent;
+}
+
+.bright {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.details-section-text {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    margin-left: var(--indent);
+    margin-right: var(--indent);
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    /*top: 0%;*/
+    /*left: 0%;*/
+    /*margin-top: -500px;*/
     /*transform: translate( -70%, -50% );*/
     text-align: left;
 }
@@ -279,8 +327,8 @@
     margin-left: var(--indent);
     margin-right: var(--indent);
     text-align: left;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    /*padding-top: 16px;*/
+    /*padding-bottom: 16px;*/
 }
 
 .details-section-text img{
@@ -326,8 +374,8 @@
 
 .details-section-video {
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: -400px;
+    /*margin-bottom: 10px;*/
+    margin-top: 70px;
     padding:56.25% 0 0 0;
     position:relative;
 }
@@ -349,7 +397,7 @@
     border-color: #7DA441;
     opacity: 1;
     font-family: 'Montserrat Regular';
-    font-size: 16px;
+    font-size: 14px;
     /*font-style: normal;*/
     color: #FFFFFF;
     margin-top: 2px;
@@ -372,7 +420,7 @@
     font-weight: 500;
     /*font-style: normal;*/
     color: #FFFFFF;
-    margin-top: 8px;
+    margin-top: 20px;
     /*padding: 6px 6px 6px 6px;*/
 
     letter-spacing: 0.1em;
@@ -417,13 +465,26 @@ p a:focus
     font-size: 20px;
 }
 
-p a:hover,
-p a:focus
+/*.footer a.footer-link:visited,*/
+.footer a.footer-link:hover,
+.footer a.footer-link:focus
 {
     background: none;
     border: none;
-    /*color: #AECFE5;*/
+    color: #AECFE5;
 }
+
+.footer .footer-social-buttons {
+    text-align: center !important;
+}
+
+.footer .footer-action-buttons {
+    text-align: center !important;
+}
+.footer .action-button-green {
+    font-size: 14px !important;
+}
+
 
 
 
@@ -441,7 +502,7 @@ p a:focus
  * Most of these are inherited from Base, but I want to change a few.
  */
 body {
-    font-family: "Avenir Next" !important;
+    font-family: "Montserrat" !important;
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 18px;
@@ -456,21 +517,23 @@ h4,
 h5,
 h6,
 label {
-    color: #34495e;
+    color: inherit;
 }
 
-/*.content-head h1 {*/
-    /*!*margin: 2em 0;*!*/
-    /*font-size: 2em;*/
-    /*font-weight: 300;*/
-    /*line-height: 1.7em;*/
-    /*position: relative;*/
-/*}*/
-/*.content-head h2 {*/
-    /*font-weight: 300;*/
-    /*padding: 0;*/
-    /*margin-top: 0;*/
-/*}*/
+.content-head h1 {
+    /*margin: 2em 0;*/
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.7em;
+    position: relative;
+}
+.content-head h2 {
+    font-weight: 300;
+    padding: 0;
+    margin-top: 0;
+    font-size: 30px;
+    /*color: #FFFFFF;*/
+}
 
 .pure-img-responsive {
     max-width: 100%;
@@ -618,6 +681,7 @@ span.action-link.regular, .action-link.regular a {
     /*padding: 1em 1em 3em;*/
     /*align-content: center;*/
     /*min-height: 150px;*/
+    line-height: 0;
 }
 
 .content-quote {
@@ -625,10 +689,11 @@ span.action-link.regular, .action-link.regular a {
 }
 
 .content-head {
-    font-weight: 400;
+    /*padding-left: var(--indent);*/
+    font-weight: 300;
     /*text-transform: uppercase;*/
-    letter-spacing: 0.1em;
-    margin: 2em 0 1em;
+    /*letter-spacing: 0.1em;*/
+    margin: 1em 0 1em;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -670,6 +735,21 @@ span.action-link.regular, .action-link.regular a {
 
 .footer li {
     margin: 10px 0;
+}
+
+.footer-social-buttons {
+    margin-left: var(--indent);
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-address {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: var(--indent);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
 }
 
 .img-area {
@@ -810,31 +890,28 @@ span.action-link.regular, .action-link.regular a {
         margin-top: 1em;
     }
 
-    #content-wrapper.x {
-        margin-top: 4em;
-    }
 
 
-    .content-head {
-        font-weight: 400;
-        /*text-transform: uppercase;*/
-        letter-spacing: 0.1em;
-        margin: 2em 0 0.5em;
-    }
+    /*.content-head {*/
+        /*font-weight: 400;*/
+        /*!*text-transform: uppercase;*!*/
+        /*letter-spacing: 0.1em;*/
+        /*margin: 2em 0 0.5em;*/
+    /*}*/
 
-    .content-head h1 {
-        font-size: 1.4em;
-        font-weight: 300;
-        line-height: 1.3em;
-        position: relative;
-    }
-    .content-subhead h2 {
-        font-size: 1.2em;
-        font-weight: 300;
-        padding: 0;
-        margin-top: 0.5em;
-        margin-bottom: 0;
-    }
+    /*.content-head h1 {*/
+        /*font-size: 1.4em;*/
+        /*font-weight: 300;*/
+        /*line-height: 1.3em;*/
+        /*position: relative;*/
+    /*}*/
+    /*.content-subhead h2 {*/
+        /*font-size: 1.2em;*/
+        /*font-weight: 300;*/
+        /*padding: 0;*/
+        /*margin-top: 0.5em;*/
+        /*margin-bottom: 0;*/
+    /*}*/
 }
 
 
