@@ -355,12 +355,18 @@
 .info-section-action {
     text-align: center;
     margin-bottom: 10px;
-    margin-top: -160px;
+    margin-top: -60%;
 }
 
 .info-section-action a {
     margin-bottom: 10px;
 }
+
+.info-section-action .social-buttons {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 
 
 .details-section {
@@ -525,7 +531,6 @@
 }
 
 
-
 .social-button img{
     color: #4968B4;
 }
@@ -601,6 +606,69 @@
     letter-spacing: 0.1em;
 }
 
+/*form{*/
+    /*width:500px;*/
+    /*margin:0 auto;*/
+/*}*/
+
+.search {
+    /*padding:6px 15px 6px 30px;*/
+    /*margin:3px;*/
+    background-color: transparent;
+    border:#6D764E;
+    color: #6D764E;
+}
+
+form.newsletter-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+
+}
+
+form.newsletter-input span {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    /*width: 290px;*/
+}
+
+form.newsletter-input .email {
+    text-align: left;
+    float: left;
+    height: 42px;
+    color: #684E3A !important;
+    font-size: 14px;
+    margin:0;
+    width: 260px;
+    border-radius: 1em 0 0 1em !important;
+}
+
+form.newsletter-input input[type=submit], form.newsletter-input input[type=submit]:hover {
+    /*position:relative;*/
+    /*left:-24.50px;*/
+    /*top: -2px;*/
+    /*margin-left: -15px;*/
+    height: 42px;
+    border-radius: 0 1em 1em 0 !important;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    /*border:1px round #adc5cf;*/
+    /*background: #e4f1f9; !* Old browsers *!*/
+    /*background: -moz-linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%); !* FF3.6+ *!*/
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f1f9), color-stop(100%,#d5e7f3)); !* Chrome,Safari4+ *!*/
+    /*background: -webkit-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); !* Chrome10+,Safari5.1+ *!*/
+    /*background: -o-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); !* Opera 11.10+ *!*/
+    /*background: -ms-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); !* IE10+ *!*/
+    /*background: linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); !* W3C *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 ); !* IE6-9 *!*/
+    /*color:#7da2aa;*/
+    /*cursor: pointer;*/
+}
 
 
 /*.highlight-section-special a:visited {*/
@@ -667,6 +735,9 @@ p a:focus
 
 .footer .footer-action-buttons {
     text-align: center !important;
+    align: center;
+    margin: 0;
+
 }
 .footer .action-button-green {
     font-size: 14px !important;
