@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Move Better Now | Pilates & Fedenkrais studio in San Mateo
-company: Move Better Now
-email: info@movebetternow.com
+title: BRAINature | ABM NeuroMovement Practitioners studio in San Mateo, CA
+company: BRAINature
+email: info@brainature.com
 phone: (650)&nbsp;703&#8209;2010
-description: Cozy & quiet Pilates & Feldenkrais studio in San Mateo. Gentle & caring approach. Private & small-group classes and hands-on sessions.
+description: Everybody can learn how to move without pain and limitations
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://www.movebetterpilates.com
 yelp: http://yelp.com/biz/move-better-now-san-mateo-2?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge
