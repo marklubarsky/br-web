@@ -17,7 +17,7 @@
                     {% else %}
                         {% assign select_tag = '' %}
                     {% endif %}
-                    <li class="pure-menu-item{{ select_tag }}"><a href="{{ p.url }}" class="pure-menu-link">{{ p.title }}</a></li>
+                    <li class="pure-menu-item{{ select_tag }}"><a href="{{site.url}}{{ p.url }}" class="pure-menu-link">{{ p.title }}</a></li>
                 {% endfor %}
             </ul>
 
