@@ -198,6 +198,7 @@
     /*position: absolute;*/
     margin-left: var(--indent);
     margin-right: var(--indent);
+    padding-bottom: 1em;
 }
 
 .highlight-section-special a {
@@ -550,6 +551,16 @@
     width:100%;
     height:100%;
 }
+
+.video-padding {
+    margin-top: 0;
+}
+
+.fix-padding {
+    padding-bottom: 0;
+}
+
+
 
 /*style="position:absolute;top:0;left:0;width:100%;height:100%;*/
 

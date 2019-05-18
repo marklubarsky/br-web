@@ -18,8 +18,9 @@ company: BRAINature
 email: info@brainature.com
 phone: (650)&nbsp;703&#8209;2010
 description: Everybody can learn how to move without pain and limitations
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: /br-web/ # the subpath of your site, e.g. /blog
 url: http://www.movebetterpilates.com
+
 yelp: http://yelp.com/biz/move-better-now-san-mateo-2?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge
 
 # Build settings
