@@ -536,8 +536,26 @@
 }
 
 
-.social-button img{
-    color: #4968B4;
+/*.social-button img{*/
+    /*color: #4968B4;*/
+/*}*/
+
+.content .social-button.facebook img {
+    background-color: #4968B4;
+    border-radius: 21px;
+    padding: 0.5em 1em;
+    width: 159px;
+    height: 42px;
+    display: inline-block;
+}
+
+.content .social-button.twitter img {
+    background-color: #40A2F5;
+    border-radius: 21px;
+    padding: 0.6em 1em;
+    width: 159px;
+    height: 42px;
+    display: inline-block;
 }
 
 .details-section-video {
@@ -657,7 +675,7 @@ form.newsletter-input .email {
     color: #684E3A !important;
     font-size: 14px;
     margin:0;
-    width: 260px;
+    width: 320px;
     border-radius: 1em 0 0 1em !important;
 }
 
@@ -712,6 +730,7 @@ p a:focus
     /*background: none;*/
     /*border: none;*/
     /*color: #AECFE5;*/
+    text-decoration: none;
 }
 
 .details-section a {
@@ -741,11 +760,96 @@ p a:focus
 {
     background: none;
     border: none;
-    color: #AECFE5;
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-social-buttons {
+    margin-left: calc(var(--indent) - 1em);
+    /*margin-right: var(--indent);*/
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-social-buttons a {
+    display: inline-block;
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    background-color: #684D3A;
+    background-position: center !important;
 }
 
 .footer .footer-social-buttons {
-    text-align: center !important;
+    text-align: left !important;
+    width: calc(100% - var(--indent) + 1em) !important;
+    /*padding: 0;*/
+    overflow: hidden;
+}
+
+.footer .footer-social-buttons a.facebook
+{
+    background: url('img/home/facebook_footer.svg') no-repeat;
+}
+
+.footer .footer-social-buttons a.facebook:hover,
+.footer .footer-social-buttons a.facebook:focus
+{
+    background-image: url('img/home/footer_hover_facebook.svg');
+}
+
+.footer .footer-social-buttons a.facebook
+{
+    background: url('img/home/facebook_footer.svg') no-repeat;
+}
+
+.footer .footer-social-buttons a.facebook:hover,
+.footer .footer-social-buttons a.facebook:focus
+{
+    background-image: url('img/home/footer_hover_facebook.svg');
+}
+
+.footer .footer-social-buttons a.twitter {
+    background: url('img/home/twitter_footer.svg') no-repeat;
+}
+
+.footer .footer-social-buttons a.twitter:hover,
+.footer .footer-social-buttons a.twitter:focus
+{
+    background-image: url('img/home/footer_hover_twitter.svg');
+}
+
+.footer .footer-social-buttons a.instagram
+{
+    background: url('img/home/inst_footer.svg') no-repeat;
+}
+
+.footer .footer-social-buttons a.instagram:hover,
+.footer .footer-social-buttons a.instagram:focus
+{
+    background-image: url('img/home/footer_hover_instagram.svg');
+}
+
+.footer .footer-social-buttons a.linkedin
+{
+    background: url('img/home/linkedin_footer.svg') no-repeat;
+}
+
+.footer .footer-social-buttons a.linkedin:hover,
+.footer .footer-social-buttons a.linkedin:focus
+{
+    background-image: url('img/home/footer_hover_linkedin.svg');
+}
+
+.footer .footer-social-buttons a.yelp
+{
+    background: url('img/home/yelp_footer.svg') no-repeat;
+}
+
+.footer .footer-social-buttons a.yelp:hover,
+.footer .footer-social-buttons a.yelp:focus
+{
+    background-image: url('img/home/footer_hover_yelp.svg');
 }
 
 .footer .footer-action-buttons {
@@ -758,6 +862,21 @@ p a:focus
     font-size: 14px !important;
 }
 
+
+.footer-action-buttons {
+    margin-left: var(--indent);
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-address {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: var(--indent);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
 
 
 
@@ -876,9 +995,14 @@ a.action-button-primary {
 
 
 .menu .pure-menu-selected a {
-    color: lightgrey;
-    /*text-transform: uppercase;*/
+    color: #6D764E !important;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+}
 
+.menu .pure-menu-link {
+    color: #8EB05C;
 }
 
 .pure-menu-item {
@@ -895,7 +1019,8 @@ a.action-button-primary {
 .menu li a:focus {
     background: none;
     border: none;
-    color: #AECFE5;
+    color: #8EB05C;
+    text-decoration: none;
     /*text-transform: uppercase;*/
 
 }
@@ -1119,28 +1244,6 @@ ul.phone-list li{
 
 .simple li {
     margin: 10px 0;
-}
-
-.footer-social-buttons {
-    margin-left: var(--indent);
-    margin-right: var(--indent);
-    padding-top: 20px;
-    margin-bottom: 20px;
-}
-
-.footer-action-buttons {
-    margin-left: var(--indent);
-    padding-top: 20px;
-    margin-bottom: 20px;
-}
-
-.footer-address {
-    font-size: 16px;
-    line-height: 24px;
-    margin-left: var(--indent);
-    padding-top: 20px;
-    margin-bottom: 20px;
-    color: #FFFFFF;
 }
 
 .img-area {
