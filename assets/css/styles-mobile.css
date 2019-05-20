@@ -1,0 +1,174 @@
+.banner {
+    width:100%;
+    height: 0;
+    display: block;
+    resize: both;
+    padding-bottom: 81.3% ; /*  375px X 363px*/
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.banner.home {
+    padding-bottom: 100%;
+}
+
+.banner h1 {
+    margin-left: var(--indent);
+    /*width: 30%;*/
+
+    position: absolute;
+    display: inline-block;
+    top: 75%;
+    color: #684D3A;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    z-index: 199;
+}
+
+.banner.home h1 {
+    margin-left: var(--indent);
+    position: absolute;
+    top: calc(70% - (36px * 2) - 12px);
+    left: 8%;
+    display: inline-block;
+
+    color: #684D3A;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    z-index: 199;
+
+    width: 70%;
+}
+
+.banner h1 span {
+    font-weight: 400;
+}
+
+.banner h1 a {
+    font-weight: 400;
+    color: #7DA444;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.banner h1 span {
+    font-weight: 400;
+}
+
+.banner h1 a {
+    font-weight: 400;
+    color: #7DA444;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.banner.home {
+    background: url('img/home/banner.jpg') no-repeat;
+    background-size: cover;
+}
+
+.banner.neuromovement {
+    background: url('img/neuromovement/banner.jpg') no-repeat;
+    background-size: contain;
+}
+
+.banner.special_kids {
+    background: url('img/special_kids/banner.jpg') no-repeat;
+    background-size: contain;
+}
+
+.banner.high_performers {
+    background: url('img/high_performers/banner.jpg') no-repeat;
+    background-size: contain;
+}
+
+.banner.our_stories {
+    background: url('img/our_stories/banner.jpg') no-repeat;
+    background-size: contain;
+}
+
+.banner.sign_up {
+    background: url('img/sign_up/banner.jpg') no-repeat;
+    background-size: contain;
+}
+
+.banner.location {
+    background: url('img/location/banner.jpg') no-repeat;
+    background-size: contain;
+}
+
+#menu-desktop {
+    display: none;
+}
+
+
+@media only screen {
+    body, #content-wrapper, .header {
+        margin: 0 auto;
+        max-width: 440px;
+        min-width: 320px;
+    }
+}
+
+
+/*Small mobile screens*/
+@media (max-width: 359px) {
+    .banner h1 {
+        top: calc(70% - (36px * 2)) !important;
+    }
+}
+
+
+
+/*
+ * Non- desktop: close menu
+ */
+@media (max-width: 599px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-wrapper.open .menu-can-transform {
+        position:fixed;
+        top: 3em;
+        text-align: center;
+        width: 414px;
+        /*width: 100%;*/
+        /*overflow: visible;*/
+        /*z-index:98;*/
+        z-index:99;
+        line-height: 0.8;
+        /*top:54px;*/
+        /*background: #F7F7F3;*/
+        background: #FFFFFF;
+        border-radius: 3px;
+    }
+
+    .menu-wrapper.open {
+        position: fixed;
+        overflow: visible;
+        z-index:199;
+        height: 24em;
+        opacity: 1;
+    }
+
+    #menu .pure-menu-horizontal {
+        padding: 2em;
+    }
+
+    .right-menu .left-menu{
+        text-align: center;
+    }
+
+    #content-wrapper {
+        margin-top: 1em;
+    }
+}
