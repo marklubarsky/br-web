@@ -292,6 +292,14 @@
     margin-left: 0.25em;
 }
 
+a.email-address {
+    cursor: default;
+}
+
+a.email-address:hover, a.email-address:focus {
+    text-decoration: none;
+}
+
 
 .info-section-simple-images {
     text-align: center;
@@ -1026,7 +1034,6 @@ a.action-button-primary {
 }
 
 .action-link a {
-    color: darkgrey;
     font-size: 0.7em;
     margin: 0;
 }
