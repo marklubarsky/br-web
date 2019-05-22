@@ -1,6 +1,33 @@
+/*.header {*/
+    /*padding-top: 0px !important;*/
+    /*padding-bottom: 2em !important;*/
+/*}*/
+
+.header-logo {
+    background: url('img/desktop/home/logo.svg') no-repeat;
+    background-size: cover;
+    width:292px;
+    height: 58px;
+    /*display: block;*/
+    /*resize: both;*/
+    /*padding-bottom: 22.1%;*/
+
+    position: relative;
+}
+
+.header-location {
+    /*vertical-align: bottom;*/
+    visibility: hidden;
+}
+
 .header-button-signup {
     vertical-align: top;
-    margin-top: -0.5em;
+    /*margin-top: -0.2em;*/
+    font-size: 12px;
+}
+
+#content-wrapper {
+    top: 71px;
 }
 
 .banner {
@@ -129,14 +156,15 @@
     margin: 0 auto;
     padding: 0;
     top: 0px;
-    text-align: left;
+    text-align: right;
+    overflow: inherit;
 }
 
 #menu-desktop .menu {
     margin: 0 auto;
     padding: 0;
     top: 0px;
-    text-align: left;
+    text-align: right;
 }
 
 
@@ -148,6 +176,17 @@
     padding-top: 0.2em;
     padding-left: 1em;
     vertical-align: top;
+}
+
+#menu-desktop .menu-footer p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: -1.5em;
+    margin-bottom: 1.5em;
+    text-align: right;
+    letter-spacing: initial;
+    text-transform: none;
+    padding-right: 1em;
 }
 
 
@@ -171,6 +210,23 @@
 }
 
 @media only screen and (max-width: 1279.99px) {
+    .header-logo {
+        background: url('img/home/brainature_hor_logo.svg') no-repeat;
+        /*width:100%;*/
+        background-size: cover;
+        width:192px;
+        height: 24px;
+        /*display: inline-block;*/
+        /*resize: both;*/
+        /*padding-bottom: 22.1%;*/
+
+        position: relative;
+    }
+
+    .header-location {
+        visibility: inherit;
+    }
+
     .menu-toggle {
         display: block;
     }
@@ -183,11 +239,15 @@
         display: none;
     }
 
+    .menu-toggle {
+        display: block;
+    }
+
     .menu-wrapper.open .menu-can-transform {
         position:fixed;
         top: 3em;
         text-align: center;
-        width: 414px;
+        width: 100%;
         /*width: 100%;*/
         /*overflow: visible;*/
         /*z-index:98;*/
@@ -209,8 +269,6 @@
 
     #menu .pure-menu-horizontal {
         padding: 2em;
-        position:fixed;
-
     }
 
     .right-menu .left-menu{
@@ -218,6 +276,7 @@
     }
 
     #content-wrapper {
-        margin-top: 1em;
+        /*margin-top: 1em;*/
+        top: 0;
     }
 }
