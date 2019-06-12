@@ -7,8 +7,8 @@ exclude: true
 
 <!--<div id="banner"></div>-->
 
-    <div id="content-wrapper">
-        <div class="content">
+    <main id="content-wrapper">
+        <header class="content">
             <div class="pure-g">
                 <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
                     <div class="banner home">
@@ -19,8 +19,8 @@ exclude: true
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="testimonials" class="content">
+        </header>
+        <section id="testimonials" class="content">
             <div class="pure-g">
                 <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
                     <div class="highlight-section blue">
@@ -46,10 +46,10 @@ exclude: true
                                 <div class="pure-u-1-8"></div>
                                 <div class="pure-u-1-8"></div>
                                 <div class="pure-u-1-8"></div>
-                                <div class="pure-u-1-8">
+                                <div class="pure-u-1-8" style="text-align: right">
                                     <a href=''><img id='testimonial-left' src="assets/css/img/home/arrow_right.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" /></a>
                                 </div>
-                                <div class="pure-u-1-8" style="text-align: center">
+                                <div class="pure-u-1-8" style="text-align: right">
                                     <a href=''><img id='testimonial-right' src="assets/css/img/home/arrow_left.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" /></a>
                                 </div>
                                 <div class="pure-u-1-8"></div>
@@ -67,59 +67,62 @@ exclude: true
                                     <img src="assets/css/img/home/yelp.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
                                 </div>
                                 <div class="pure-u-5-6 pure-u-md-5-6 pure-u-lg-5-6">
-                                    <div class="highlight-section-special-icon"><a href="">MORE REVIEWS ON YELP</a></div>
+                                    <div class="highlight-section-special"><a href="">MORE REVIEWS ON YELP</a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="content">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                        <div class="info-section over-bright-image">
-                            <a href="" >
-                                <img src="assets/css/img/home/pic1.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                            </a>
-                            <div class="info-section-text">
-                                <!--<div class="info-section-title">-->
-                                <p>Anat Baniel Method® (ABM) NeuroMovement® is a method of retraining one's movement and thinking patterns. “Movement is the language of the brain” is the foundational concept of the ABMNM, coined by the method’s founder, Anat Baniel.</p>
-                                <!--</div>-->
-                            </div>
-                            <div class="info-section-action">
-                                <form class="newsletter-input pure-form" method="get" action="http://brainature.com">
-                                    <span>
-                                        <input type="text" class="email pure-input-rounded" placeholder="ADD EMAIL FOR NEWSLETTER">
-                                        <input class="pure-button green" type="submit" value="OK">
-                                    </span>
-                                </form>
-
-                                <div class="social-buttons">
-                                    <div class="pure-g">
-                                        <div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">
-                                            <a class="social-button facebook" href="" >
-                                                <img src="assets/css/img/home/social_button_icon_fb.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                                            </a>
-                                        </div>
-
-                                        <div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">
-                                            <a class="social-button twitter" href="" >
-                                                <img src="assets/css/img/home/social_button_icon_tw.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                                            </a>
-                                        </div>
-
-                                    </div>
+        <section class="content intro-section">
+            <!--<div class="pure-g">-->
+                <!--<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">-->
+                        <!--<div class="home intro-section">-->
+                            <div class="pure-g">
+                                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+                                    <p>Anat Baniel Method® (ABM) NeuroMovement® is a method of retraining one's movement and thinking patterns. “Movement is the language of the brain” is the foundational concept of the ABMNM, coined by the method’s founder, Anat Baniel.</p>
+                                </div>
+                                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 center-box">
+                                    {% include social-form.html %}
                                 </div>
                             </div>
-                        </div>
-                </div>
-            </div>
-        </div>
 
 
-        <div class="content">
+
+                            <!--<div class="info-section-action">-->
+                                <!--<form class="newsletter-input pure-form" method="get" action="http://brainature.com">-->
+                                    <!--<span>-->
+                                        <!--<input type="text" class="email pure-input-rounded" placeholder="ADD EMAIL FOR NEWSLETTER">-->
+                                        <!--<input class="pure-button green" type="submit" value="OK">-->
+                                    <!--</span>-->
+                                <!--</form>-->
+
+                                <!--<div class="social-buttons">-->
+                                    <!--<div class="pure-g">-->
+                                        <!--<div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">-->
+                                            <!--<a class="social-button facebook" href="" >-->
+                                                <!--<img src="assets/css/img/home/social_button_icon_fb.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+
+                                        <!--<div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">-->
+                                            <!--<a class="social-button twitter" href="" >-->
+                                                <!--<img src="assets/css/img/home/social_button_icon_tw.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        </section>
+
+
+        <section class="content">
             <div class="pure-g">
                 <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
                     <div class="details-section over-dark-image">
@@ -146,10 +149,10 @@ exclude: true
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <div class="content">
+        <section class="content">
             <div class="pure-g">
                 <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
                     <div class="info-section-simple">
@@ -177,9 +180,9 @@ exclude: true
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="content">
+        <section class="content">
             <div class="pure-g">
                 <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
                     <div class="highlight-section blue">
@@ -196,8 +199,8 @@ exclude: true
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
 
 

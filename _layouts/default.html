@@ -1,5 +1,85 @@
 <!doctype html>
 <html lang="en">
+<body>
+
+<!--<div id="layout">-->
+<div class="header">
+    <div class="pure-g pure-menu-heading">
+        <!--348 (66 + 282) + 1092 ()-->
+        <div class="pure-u-1-4 pure-u-md-1-4 pure-u-lg-1-4   left-menu">
+            <div class="header-logo">
+                <!--<a href="./" >-->
+                <!--<img src="assets/css/img/home/brainature_hor_logo.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />-->
+                <!--</a>-->
+            </div>
+            <div class="header-location">SAN MATEO, CA</div>
+        </div>
+        <div class="pure-u-1-2 pure-u-md-2-3 pure-u-lg-2-3">
+            {% include menu-desktop.html %}
+        </div>
+        <div class="pure-u-1-4 pure-u-md-1-6 pure-u-lg-1-6">
+            <a href="sign_up.html" class="pure-button header-button-signup">SIGN UP</a>
+        </div>
+    </div>
+</div>
+
+{% include menu.html %}
+
+<main>
+    {{ content }}
+</main>
+<!--</div>-->
+
+<footer class="footer">
+    <!--<div class="pure-g">-->
+
+        <!--<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">-->
+            <!--<div class="pure-g">-->
+                <!--<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">-->
+                    <div class="footer-logo"></div>
+                <!--</div>-->
+                <!--<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">-->
+    <div>
+                    <ul>
+                        <li><a class="footer-link" href="sign_up.html">Sign Up for Program</a></li>
+                        <li><a class="footer-link" href="sign_up.html">Free Consultation</a></li>
+                        <li><a class="footer-link" href="sign_up.html">Gift Certificates</a></li>
+                        <li><a class="footer-link" href="location.html">Location</a></li>
+                    </ul>
+    </div>
+                <!--</div>-->
+                <!--<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">-->
+                    <ul>
+                        <li><a class="footer-link" href="neuromovement.html">NeuroMovement</a></li>
+                        <li><a class="footer-link" href="special_kids.html">Special Kids</a></li>
+                        <li><a class="footer-link" href="high_performers.html">High Performers</a></li>
+                        <li><a class="footer-link" href="our_stories.html">Our Stories</a></li>
+                <!--<li><a class="footer-link" href="resources.html">Resources</a></li>-->
+                    </ul>
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">-->
+            <!--<div class="pure-g">-->
+                <!--<div class="pure-u-1 pure-u-md-2-3 pure-u-lg-2-3 center-box">-->
+                    {% include footer-social-form.html %}
+                <!--</div>-->
+
+                <!--<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 center-box">-->
+                    <div class="footer-address">
+                        <p>3-West 37-th Avenue, Suite 22<br/>
+                            San Mateo, CA 94403</p>
+                        <p>&copy; 2019 BRAINature</p>
+                    </div>
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</footer>
+
+<script src="assets/js/ui.js"></script>
+
+</body>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,91 +129,4 @@
 
     </script>
 </head>
-<body>
-
-<div id="layout">
-    <div class="header">
-        <div class="pure-g pure-menu-heading">
-            <!--348 (66 + 282) + 1092 ()-->
-            <div class="pure-u-1-4 pure-u-md-1-4 pure-u-lg-1-4   left-menu">
-                <div class="header-logo">
-                    <!--<a href="./" >-->
-                        <!--<img src="assets/css/img/home/brainature_hor_logo.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />-->
-                    <!--</a>-->
-                </div>
-                <div class="header-location">SAN MATEO, CA</div>
-            </div>
-            <div class="pure-u-1-2 pure-u-md-2-3 pure-u-lg-2-3">
-                {% include menu-desktop.html %}
-            </div>
-            <div class="pure-u-1-4 pure-u-md-1-6 pure-u-lg-1-6">
-                <a href="sign_up.html" class="pure-button header-button-signup">SIGN UP</a>
-            </div>
-        </div>
-    </div>
-
-    {% include menu.html %}
-
-    {{ content }}
-</div>
-
-<div class="footer">
-    <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-            <ul>
-                <li><a class="footer-link" href="sign_up.html">Sign Up for Program</a></li>
-                <li><a class="footer-link" href="sign_up.html">Free Consultation</a></li>
-                <li><a class="footer-link" href="sign_up.html">Gift Certificates</a></li>
-                <li><a class="footer-link" href="location.html">Location</a></li>
-                <li><a class="footer-link" href="neuromovement.html">NeuroMovement</a></li>
-                <li><a class="footer-link" href="special_kids.html">Special Kids</a></li>
-                <li><a class="footer-link" href="high_performers.html">High Performers</a></li>
-                <li><a class="footer-link" href="our_stories.html">Our Stories</a></li>
-                <!--<li><a class="footer-link" href="resources.html">Resources</a></li>-->
-            </ul>
-        </div>
-    </div>
-
-    <div class="footer-action-buttons">
-        <form class="newsletter-input pure-form" method="get" action="http://brainature.com">
-            <span>
-                <input type="text" class="email pure-input-rounded" placeholder="ADD EMAIL FOR NEWSLETTER">
-                <input class="pure-button green" type="submit" value="OK">
-            </span>
-        </form>
-
-    </div>
-
-    <div class="footer-social-buttons">
-        <div class="pure-g">
-
-            <div class="pure-u-1-5 pure-u-md-1-5 pure-u-lg-1-5">
-                <a class="social-button facebook" href="" ></a>
-            </div>
-            <div class="pure-u-1-5 pure-u-md-1-5 pure-u-lg-1-5">
-                <a class="social-button twitter" href="" ></a>
-            </div>
-            <div class="pure-u-1-5 pure-u-md-1-5 pure-u-lg-1-5">
-                <a class="social-button instagram" href="" ></a>
-            </div>
-
-            <div class="pure-u-1-5 pure-u-md-1-5 pure-u-lg-1-5">
-                <a class="social-button yelp" href="" ></a>
-            </div>
-
-            <div class="pure-u-1-5 pure-u-md-1-5 pure-u-lg-1-5">
-                <a class="social-button linkedin" href=""></a>
-            </div>
-        </div>
-    </div>
-    <div class="footer-address">
-        <p>3-West 37-th Avenue, Suite 22<br/>
-            San Mateo, CA 94403</p>
-        <p>&copy; 2019 BRAINature</p>
-    </div>
-</div>
-
-<script src="assets/js/ui.js"></script>
-
-</body>
 </html>
