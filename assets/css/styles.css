@@ -1284,7 +1284,8 @@ span.action-link.regular, .action-link.regular a {
     justify-items: center;
 
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    /*align-items: flex-start;*/
 }
 
 .footer .newsletter-box {

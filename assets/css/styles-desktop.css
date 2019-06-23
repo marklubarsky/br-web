@@ -6,19 +6,6 @@
     --indent: 64px;
 }
 
-.footer-logo {
-    background: url('img/BRAINature_logo_mark_white.svg') no-repeat;
-    background-size: cover;
-    width:92px;
-    height: 78px;
-    margin-left: var(--indent);
-    /*display: block;*/
-    /*resize: both;*/
-    /*padding-bottom: 22.1%;*/
-
-    position: relative;
-}
-
 .header-logo {
     background: url('img/desktop/home/logo.svg') no-repeat;
     background-size: cover;
@@ -207,9 +194,73 @@ p.label {
     display: none;
 }
 
+footer .footer-logo {
+    background: url('img/BRAINature_logo_mark_white.svg') no-repeat;
+    background-size: cover;
+    min-width:92px;
+    width: 5%;
+    height: 78px;
+    margin-left: var(--indent);
+    margin-top: var(--indent);
+
+    /*display: block;*/
+    /*resize: both;*/
+    /*padding-bottom: 22.1%;*/
+
+    /*position: relative;*/
+    display: block;
+}
+
+/*footer .footer-row-1 {*/
+    /*width: 50%;*/
+/*}*/
+
+footer .footer-row-1 {
+    width: 40%;
+    display: flex;
+    flex-wrap: nowrap;
+    /*align-items: stretch;*/
+
+}
+
+footer .footer-row-2 {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /*align-items: stretch;*/
+}
+
+/*footer .footer-menu {*/
+    /*display: block;*/
+    /*width: 30%;*/
+/*}*/
+
+footer .footer-menu-1 {
+    display: block;
+    width: 50%;
+    /*flex-wrap: wrap;*/
+}
+
+footer .footer-menu-2 {
+    display: block;
+    width: 50%;
+    /*flex-wrap: wrap;*/
+}
+
+
+
+footer .footer-connect {
+    width: 50%;
+    display: block;
+}
 footer .footer-address {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
+    width: 30%;
+    display: block;
+    font-weight: 300;
+    padding: 0;
 }
 
 footer .center-box {
