@@ -3,6 +3,56 @@ layout: default
 title: NeuroMovement
 menu_order: 2
 description:
+banner:
+    title: NeuroMovement<span>&reg;</span>
+intro:
+    title: Our Sessions
+    text: During our sessions, you perform various refined movements while being guided by the practitioner through gentle touch and coaching. You discover new ways of movement, without discomfort or unnecessary effort, with greater freedom and a sense of overall lightness and well-being.
+
+highlights:
+    - title: Between your sessions, we coach you on how to integrate changes in your daily life and form new habitual movement patterns.
+      action:
+            call: CONSULT FOR FREE
+            link: sign_up.html
+    - title: Is NeuroMovement right for you? Find out at our FREE consultation
+      action:
+            call: SIGN UP
+            link: sign_up.html
+
+details:
+    explanation:
+        title: Explanation
+        text:
+            - The reason why NeuroMovement has helped so many people with chronic conditions is the nature of the brain and the human system as a whole. We believe that most often pain comes from the way we have been using our body, like standing, sitting, walking, and other everyday movements.
+            - While the original cause of the pain may be an injury or another medical condition, when our ability to move naturally and efficiently is compromised, it affects our ability to self-heal. Many small problems turn into chronic diseases as a result of poor habitual movement patterns.
+            - As we relearn healthier movement patterns, we get better. "Getting better" may carry a very different meaning for different people. For some, it may be a "miracle of healing," while others discover new exciting effects that they would have never thought would occur.
+            - Everyone's experience is their own, and we do not make any "miracle" promises. While many clients call the effects of this work "miracles", we only work together with you to help you recover lost abilities by accessing the brain's power to form new patterns.
+            - While the "visible" focus is on neuro-muscular conditioning and chronic pain relief, these newly acquired skills are ready to be integrated into any daily activity.
+
+    science:
+        - title: Science
+          text:
+            - The scientists are now making progress in their research of the relationship between brain and movement, mind and body, and the whole concept that the two are not separated. All of our pain and limitations, whether they stem from physical injuries/conditions, emotional stress, poor habits, self-limiting thinking patterns, are interconnected. We help you start this process of overcoming your limitations by helping you learn how to use less effort and to achieve more outcome naturally.
+            - <a href="https://www.anatbanielmethod.com/about-abm/supporting-research">Please review the supporting research</a>
+
+examples:
+    - title: Most common musculoskeletal conditions
+      subtitle:  "that our clients see improved are:"
+      list:
+        - Lower back pain, chronic back pain and scoliosis
+        - Neck and shoulder pain
+        - Hip, knee, and foot pain
+        - Joint pain and arthritis
+        - Repetitive stress injury and carpal tunnel syndrome
+
+    - text: "As NeuroMovement works with the brain and the body as a whole, many of the following clients experience improvements far beyond what is expected:"
+      list:
+        - High-performing athletes, musicians, artists, and CEO’s
+        - People suffering from chronic pain, including back pain, scoliosis, neck, shoulder, and joint pain; or other injuries
+        - People recovering from strokes and brain injuries
+        - Older adults with limited movement, poor balance, or decreasing memory or vitality
+        - Children with Special Needs
+
 ---
 
 <!--<div id="banner"></div>-->
@@ -12,7 +62,7 @@ description:
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
                 <div class="banner neuromovement">
-                    <h1>NeuroMovement<span>&reg;</span></h1>
+                    <h1>{{ page.banner.title }}</h1>
                 </div>
             </div>
         </div>
@@ -26,9 +76,9 @@ description:
                     <div class="details-section-text">
                         <div class="details-section-title">
                             <div class="content-head">
-                                <h2>Our Sessions</h2>
+                                <h2>{{ page.intro.title }}</h2>
                             </div>
-                            <p>During our sessions, you perform various refined movements while being guided by the practitioner through gentle touch and coaching. You discover new ways of movement, without discomfort or unnecessary effort, with greater freedom and a sense of overall lightness and well-being.</p>
+                            <p>{{ page.intro.text }}</p>
                         </div>
                     </div>
                 </div>
@@ -59,11 +109,11 @@ description:
                 <div class="highlight-section-text large blue center">
                     <div class="pure-g">
                         <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                            Between your sessions, we coach you on how to integrate changes in your daily life and form new habitual movement patterns.
+                            {{ page.highlights[0].title }}
                         </div>
                     </div>
 
-                    <a class="pure-button action-button-white" href="sign_up.html">CONSULT FOR FREE</a>
+                    <a class="pure-button action-button-white" href="{{ page.highlights[0].action.link }}">{{ page.highlights[0].action.call }}</a>
 
                 </div>
             </div>
@@ -80,13 +130,11 @@ description:
                 </a>
                 <div class="details-section-text-over-image over-bright-image">
                     <div class="content-head over-bright-image">
-                        <h2>Explanation</h2>
+                        <h2>{{ page.details.explanation.title}}</h2>
                     </div>
-                    <p>The reason why NeuroMovement has helped so many people with chronic conditions is the nature of the brain and the human system as a whole. We believe that most often pain comes from the way we have been using our body, like standing, sitting, walking, and other everyday movements.</p>
-                    <p>While the original cause of the pain may be an injury or another medical condition, when our ability to move naturally and efficiently is compromised, it affects our ability to self-heal. Many small problems turn into chronic diseases as a result of poor habitual movement patterns.</p>
-                    <p>As we relearn healthier movement patterns, we get better. "Getting better" may carry a very different meaning for different people. For some, it may be a "miracle of healing," while others discover new exciting effects that they would have never thought would occur.</p>
-                    <p>Everyone's experience is their own, and we do not make any "miracle" promises. While many clients call the effects of this work "miracles", we only work together with you to help you recover lost abilities by accessing the brain's power to form new patterns.</p>
-                    <p>While the "visible" focus is on neuro-muscular conditioning and chronic pain relief, these newly acquired skills are ready to be integrated into any daily activity.</p>
+                    {% for t in page.details.explanation.text %}
+                        <p>{{ t }}</p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -101,10 +149,10 @@ description:
                     <div class="details-section-text">
                         <div class="details-section-title">
                             <div class="content-head bright">
-                                <h2>Science</h2>
+                                <h2>{{ page.details.science.title}}</h2>
                             </div>
-                             <p>The scientists are now making progress in their research of the relationship between brain and movement, mind and body, and the whole concept that the two are not separated. All of our pain and limitations, whether they stem from physical injuries/conditions, emotional stress, poor habits, self-limiting thinking patterns, are interconnected. We help you start this process of overcoming your limitations by helping you learn how to use less effort and to achieve more outcome naturally.</p>
-                            <p><a href="https://www.anatbanielmethod.com/about-abm/supporting-research">Please review the supporting research</a></p>
+                             <p>{{ page.details.science.text[0]}}</p>
+                             <p>{{ page.details.science.text[1]}}</p>
                         </div>
                     </div>
                 </div>
@@ -133,17 +181,15 @@ description:
                 <div class="highlight-section blue">
                     <div class="highlight-section-text">
                         <div class="content-head">
-                            <h2>Most common musculoskeletal conditions </h2>
-                            <h3>that our clients see improved are:</h3>
+                            <h2>{{ page.examples[0].title}} </h2>
+                            <h3>{{ page.examples[0].subtitle}} </h3>
                         </div>
                         <div class="pure-g">
                             <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
                                 <ul>
-                                    <li>Lower back pain, chronic back pain and scoliosis</li>
-                                    <li>Neck and shoulder pain</li>
-                                    <li>Hip, knee, and foot pain</li>
-                                    <li>Joint pain and arthritis</li>
-                                    <li>Repetitive stress injury and carpal tunnel syndrome</li>
+                                    {% for li in page.examples[0].list %}
+                                    <li>{{ li }}</li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div>
@@ -162,16 +208,16 @@ description:
                     </a>
                     <div class="info-section-text">
                         <p>
-                            As NeuroMovement works with the brain and the body as a whole, many of the following clients experience improvements far beyond what is expected:
+                            {{ page.examples[1].text}}
                         </p>
                         <div class="pure-g">
                             <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
                                 <ul class="large-list">
-                                    <li>High-performing athletes, musicians, artists, and CEO’s</li>
-                                    <li>People suffering from chronic pain, including back pain, scoliosis, neck, shoulder, and joint pain; or other injuries</li>
-                                    <li>People recovering from strokes and brain injuries</li>
-                                    <li>Older adults with limited movement, poor balance, or decreasing memory or vitality</li>
-                                    <li>Children with Special Needs</li>
+                                    <ul>
+                                        {% for li in page.examples[1].list %}
+                                        <li>{{ li }}</li>
+                                        {% endfor %}
+                                    </ul>
                                 </ul>
                             </div>
                         </div>
@@ -188,11 +234,11 @@ description:
                     <div class="highlight-section-text large center">
                         <div class="pure-g">
                             <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                                Is NeuroMovement right for you? Find out at our FREE consultation
+                                {{ page.highlights[1].title }}
                             </div>
                         </div>
 
-                        <a class="pure-button action-button-white center" href="sign_up.html">SIGN UP</a>
+                        <a class="pure-button action-button-white center" href="{{ page.highlights[1].action.link }}">{{ page.highlights[1].action.call }}</a>
 
                     </div>
                 </div>

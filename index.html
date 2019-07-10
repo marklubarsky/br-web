@@ -3,6 +3,29 @@ layout: default
 title: Home
 description:
 exclude: true
+banner:
+    title: "Anat Baniel Method<span>&reg;</span> (ABM) NeuroMovement<span>&reg;</span>"
+    call: LEARN MORE
+    link: neuromovement.html
+intro:
+    text: Anat Baniel Method® (ABM) NeuroMovement® is a method of retraining one's movement and thinking patterns. “Movement is the language of the brain” is the foundational concept of the ABMNM, coined by the method’s founder, Anat Baniel.
+details:
+    title: "This system has its roots in the work of Dr. Moshe Feldenkrais (aka Feldenkrais Method), with whom Anat Baniel studied for many years before expanding the method into what is now known as NeuroMovement®. Anat Baniel’s work with thousands of children and adults gave her many experiences from which she concluded how the brain works. Anat was using principles of brain plasticity many years before brain science caught up and began validating her work. Anat is working closely with other leading renown experts in Movement Science, Neurology and Brain plasticity, including:"
+    list:
+         - <span class="highlight-name">Dr. Michael Merzenich</span> (Alzheimer's, BrainHQ/Posit Science, "Father of Brain Plasticity Science")
+         - <span class="highlight-name">Dr. Martha Herbert</span>, MD, PhD (Pediatric Neurology)
+         - <span class="highlight-name">Dr. Jill Bolte Taylor</span> (Stroke recovery
+         - <span class="highlight-name">Norman Doidge</span>, MD (Psychiatry)
+    video_description: In 2018, the first documentary film describing NeuroMovement, 'Life Unbound' started its showings across the globe
+    video_link: <a href="https://www.anatbanielmethod.com/about-abm/supporting-research">Please review the supporting research</a>
+book:
+    author: Anat Baniel is an author of books 'Move Into Life' and 'Kids Beyond Limits.' To learn more about NeuroMovement directly from the founder, please read about <a href="https://www.anatbanielmethod.com/about-abm/evolution-of-the-method">how the Anat Baniel Method evolved from the Feldenkrais Method</a>
+
+highlight:
+    title: Find out more about our NeuroMovement sessions
+    action:
+        call: LEARN MORE
+        link: neuromovement.html
 ---
 
 <!--<div id="banner"></div>-->
@@ -13,8 +36,8 @@ exclude: true
                 <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
                     <div class="banner home">
                         <h1>
-                            Anat Baniel Method<span>&reg;</span> (ABM) NeuroMovement<span>&reg;</span>
-                            <a href="neuromovement.html">LEARN MORE</a>
+                            {{ page.banner.title }}
+                            <a href="{{ page.banner.link }}">{{ page.banner.call }}</a>
                         </h1>
                     </div>
                 </div>
@@ -31,12 +54,7 @@ exclude: true
                                 </div>
                                 <div class="pure-u-5-6 pure-u-md-5-6 pure-u-lg-5-6">
                                     <div class="testimonial-list">
-                                        <p class="show">... I had such good results that I brought my 85-year-old mother after she had two back surgeries. She, like me, now thinks of back pain as an unusual occurrence! - Margaret L.</p>
-                                        <p>... I felt slight improvement after a couple of sessions, and a significant improvement after a few weeks. I felt not just a reduction in pain but also a tangible difference in the way my arms, hips and legs all felt in my walking and my daily movements. – Peter Bartok</p>
-                                        <p>... Within a few months I was able to again lift my own luggage (had not been able to do so for several years w/o having pain later). I continue to see Olga today and am a believer in what ABM can do for people who suffer from debilitating lower back pain. - Tina S.</p>
-                                        <p>... We started ABM lessons for our daughter last summer and were happy to get the chance to get her more ABM lessons. Olga approached Jewel with such gentleness, integrity, and sweetness which made Jewel trust her right away. She allowed Olga to work on her, and her body slowly transformed, getting softer and opening up, as if moving forward. Going from tightness to openness, from congestion to open airways. - Ivana.</p>
-                                        <p>...the pains have really disappeared. I was able to run my first half marathon. I started playing volleyball again. I no longer stretch, or even feel the need to stretch. I’m now 8 months pregnant and attribute my lack of the typical aches and pains that most pregnant women complain of to the fact that I still have weekly lessons with Olga. - Kristen A.</p>
-                                        <p>... I highly recommend working with Mark and Olga to overcome physical limitations and injuries and gain new body awareness." – Noelle Wood</p>
+                                        {% include testimonials.html %}
                                     </div>
                                 </div>
                             </div>
@@ -77,48 +95,15 @@ exclude: true
         </section>
 
         <section class="content intro-section">
-            <!--<div class="pure-g">-->
-                <!--<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">-->
-                        <!--<div class="home intro-section">-->
                             <div class="pure-g">
                                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                                    <p>Anat Baniel Method® (ABM) NeuroMovement® is a method of retraining one's movement and thinking patterns. “Movement is the language of the brain” is the foundational concept of the ABMNM, coined by the method’s founder, Anat Baniel.</p>
+                                    <p>{{ page.intro.text }}</p>
                                 </div>
                                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 center-box">
                                     {% include social-form.html %}
                                 </div>
                             </div>
 
-
-
-                            <!--<div class="info-section-action">-->
-                                <!--<form class="newsletter-input pure-form" method="get" action="http://brainature.com">-->
-                                    <!--<span>-->
-                                        <!--<input type="text" class="email pure-input-rounded" placeholder="ADD EMAIL FOR NEWSLETTER">-->
-                                        <!--<input class="pure-button green" type="submit" value="OK">-->
-                                    <!--</span>-->
-                                <!--</form>-->
-
-                                <!--<div class="social-buttons">-->
-                                    <!--<div class="pure-g">-->
-                                        <!--<div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">-->
-                                            <!--<a class="social-button facebook" href="" >-->
-                                                <!--<img src="assets/css/img/home/social_button_icon_fb.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />-->
-                                            <!--</a>-->
-                                        <!--</div>-->
-
-                                        <!--<div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">-->
-                                            <!--<a class="social-button twitter" href="" >-->
-                                                <!--<img src="assets/css/img/home/social_button_icon_tw.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />-->
-                                            <!--</a>-->
-                                        <!--</div>-->
-
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
         </section>
 
 
@@ -130,21 +115,20 @@ exclude: true
                             <img src="assets/css/img/home/pic2.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
                         </a>
                         <div class="details-section-text-over-image">
-                            <p>This system has its roots in the work of Dr. Moshe Feldenkrais (aka Feldenkrais Method), with whom Anat Baniel studied for many years before expanding the method into what is now known as NeuroMovement®. Anat Baniel’s work with thousands of children and adults gave her many experiences from which she concluded how the brain works. Anat was using principles of brain plasticity many years before brain science caught up and began validating her work. Anat is working closely with other leading renown experts in Movement Science, Neurology and Brain plasticity, including:</p>
+                            <p>{{ page.details.title }}</p>
                             <ul>
-                                <li><span class="highlight-name">Dr. Michael Merzenich</span> (Alzheimer's, BrainHQ/Posit Science, "Father of Brain Plasticity Science")</li>
-                                <li><span class="highlight-name">Dr. Martha Herbert</span>, MD, PhD (Pediatric Neurology)</li>
-                                <li><span class="highlight-name">Dr. Jill Bolte Taylor</span> (Stroke recovery</li>
-                                <li><span class="highlight-name">Norman Doidge</span>, MD (Psychiatry)</li>
+                                {% for t in page.details.list %}
+                                    <li>{{ t }}</li>
+                                {% endfor %}
                             </ul>
                             <div class="details-section-video">
                                 <div><iframe src="https://player.vimeo.com/video/286300611?color=7DA444&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                             </div>
                             <div class="details-section-description">
-                                <p>In 2018, the first documentary film describing NeuroMovement, 'Life Unbound' started its showings across the globe</p>
+                                <p>{{ page.details.video_description }}</p>
                             </div>
                             <br />
-                            <a href="https://www.anatbanielmethod.com/about-abm/supporting-research">Please review the supporting research</a>
+                            {{ page.details.video_link }}
                         </div>
                     </div>
                 </div>
@@ -158,7 +142,7 @@ exclude: true
                     <div class="info-section-simple">
                         <!--<div class="info-section-title">-->
                             <div class="info-section-simple-text">
-                                <p>Anat Baniel is an author of books 'Move Into Life' and 'Kids Beyond Limits.' To learn more about NeuroMovement directly from the founder, please read about <a href="https://www.anatbanielmethod.com/about-abm/evolution-of-the-method">how the Anat Baniel Method evolved from the Feldenkrais Method</a>.</p>
+                                <p>{{ page.book.author }}</p>
                             </div>
 
                         <!--</div>-->
@@ -189,11 +173,11 @@ exclude: true
                         <div class="highlight-section-text large center">
                             <div class="pure-g">
                                 <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                                    Find out more about our NeuroMovement sessions
+                                    {{ page.highlight.title }}
                                 </div>
                             </div>
 
-                            <a class="pure-button action-button-white" href="neuromovement.html">LEARN MORE</a>
+                            <a class="pure-button action-button-white" href="{{ page.highlight.action.link }}">{{ page.highlight.action.call }}</a>
 
                         </div>
                     </div>

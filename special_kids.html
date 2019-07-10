@@ -3,6 +3,34 @@ layout: default
 title: Special Kids
 menu_order: 3
 description:
+intro: While both Kids and Adults benefit greatly from NeuroMovement, it's important to note that NeuroMovement would not be what it is now if not for the work of Anat Baniel and the ABM NeuroMovement practitioners with children with special needs. This work has shown excellent outcomes with children.
+details: Typically developing kids grow the healthier movement and thinking patterns. The range of possibilities for a growing human being that the method can bring is hard to ignore. The entire learning and development process is closely related to how a child moves and other habits acquired during childhood. Undergoing this process affects learning far beyond movement and extends into other physical, cognitive, emotional abilities. Children diagnosed with various developmental, learning or neurological disorders can utilize the brain's enormous capacity to reorganize and form new habits in ways that lead to the recovery of function, often way beyond what is typically deemed possible. These outcomes helped propel Anat Baniel's and NeuroMovement’s popularity among parents with children with special needs and adults recovering from neurological and developmental disorders.
+examples:
+    title: Here are some of the examples of diagnoses
+    subtitle: "that NeuroMovement work has been effective with:"
+    list:
+        - Autism spectrum disorder (ASD) and Asperger’s syndrome
+        - Cerebral palsy (CP) stroke or other brain trauma
+        - Global brain damage
+        - ADD/ADHD (attention deficit disorder/attention-deficit hyperactivity disorder)
+        - Genetic disorders
+        - Undiagnosed developmental delays
+        - Congenital disabilities
+        - Other learning, behavioral, or developmental challenges
+highlights:
+    gift:
+        title: Can your child or someone you know benefit from ABM NeuroMovement?
+        action:
+            link: sign_up.html
+            call: BUY A GIFT CERTIFICATE
+    mark:
+        title: Effective March 2019, Mark will start Mastery Training specifically for Children. As part of his practicum, he will be offering FREE sessions to kids (under 18 years old). Kids who sign up for these free sessions will be able to receive a set of limited (yet regular) hands-on sessions (Functional Synthesis) throughout the entire 2019, while Mark continues this Mastery training.
+        action:
+            call: ENROLL YOUR CHILD
+            link: signup.html
+video:
+    title: Watch the trailer
+    subtitle: for the new documentary about NeuroMovement with kids
 ---
 
 <!--<div id="banner"></div>-->
@@ -24,7 +52,7 @@ description:
                 <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
 
                     <div class="highlight-section-text large">
-                            <p>While both Kids and Adults benefit greatly from NeuroMovement, it's important to note that NeuroMovement would not be what it is now if not for the work of Anat Baniel and the ABM NeuroMovement practitioners with children with special needs. This work has shown excellent outcomes with children.</p>
+                            <p>{{ page.intro }}</p>
                     </div>
                 </div>
             </div>
@@ -55,7 +83,7 @@ description:
 
                     <div class="details-section-text">
                         <div class="details-section-title">
-                            <p>Typically developing kids grow the healthier movement and thinking patterns. The range of possibilities for a growing human being that the method can bring is hard to ignore. The entire learning and development process is closely related to how a child moves and other habits acquired during childhood. Undergoing this process affects learning far beyond movement and extends into other physical, cognitive, emotional abilities. Children diagnosed with various developmental, learning or neurological disorders can utilize the brain's enormous capacity to reorganize and form new habits in ways that lead to the recovery of function, often way beyond what is typically deemed possible. These outcomes helped propel Anat Baniel's and NeuroMovement’s popularity among parents with children with special needs and adults recovering from neurological and developmental disorders.</p>
+                            <p>{{ page.details }}</p>
                         </div>
                     </div>
                 </div>
@@ -70,20 +98,15 @@ description:
                 <div class="highlight-section green">
                     <div class="highlight-section-text">
                         <div class="content-head">
-                            <h2>Here are some of the examples of diagnoses</h2>
-                            <h3>that NeuroMovement work has been effective with:</h3>
+                            <h2>{{ page.examples.title }}</h2>
+                            <h3>{{ page.examples.subtitle }}</h3>
                         </div>
                         <div class="pure-g">
                             <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
                                 <ul>
-                                    <li>Autism spectrum disorder (ASD) and Asperger’s syndrome</li>
-                                    <li>Cerebral palsy (CP) stroke or other brain trauma</li>
-                                    <li>Global brain damage</li>
-                                    <li>ADD/ADHD (attention deficit disorder/attention-deficit hyperactivity disorder)</li>
-                                    <li>Genetic disorders</li>
-                                    <li>Undiagnosed developmental delays</li>
-                                    <li>Congenital disabilities</li>
-                                    <li>Other learning, behavioral, or developmental challenges</li>
+                                    {% for li in page.examples.list %}
+                                        <li>{{ li }}</li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div>
@@ -100,11 +123,11 @@ description:
                     <div class="highlight-section-text large center">
                         <div class="pure-g">
                             <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                                Can your child or someone you know benefit from ABM NeuroMovement?
+                                {{ page.highlights.gift.title}}
                             </div>
                         </div>
 
-                        <a class="pure-button action-button-white" href="sign_up.html">BUY A GIFT CERTIFICATE</a>
+                        <a class="pure-button action-button-white" href="{{ page.highlights.gift.action.link}}">{{ page.highlights.gift.action.call}}</a>
 
                     </div>
                 </div>
@@ -119,9 +142,9 @@ description:
 
                     <div class="highlight-section-text center">
                         <div class="content-head">
-                            <h2 class="center">Watch the trailer</h2>
+                            <h2 class="center">{{ page.video.title }}</h2>
                         </div>
-                        <p>for the new documentary about NeuroMovement with kids</p>
+                        <p>{{ page.video.subtitle }}</p>
                     </div>
 
 
