@@ -1,0 +1,90 @@
+.content-wrapper main.our-stories .main-banner {
+    background: url("../images/web_assets_desktop/our_stories/banner.jpg");
+    background-size: cover;
+}
+
+.content-wrapper main.our-stories .main-banner h1{
+    color: white;
+}
+
+.content-wrapper main.our-stories .section-1{
+    background-color: #F8F8F0;
+}
+
+.content-wrapper main.our-stories .section-1 .main-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.content-wrapper main.our-stories .section-1 .main-section-articles a{
+    color: #7DA444;
+}
+
+.content-wrapper main.our-stories .section-1 ul li {
+    color: #684E3A;
+}
+
+.content-wrapper main.our-stories .section-1 .main-section-content .main-section-text .mobile-photo{
+    display: none;
+}
+
+.content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo:first-of-type{
+    background: url("../images/web_assets_desktop/our_stories/mark_avatar.jpg") center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+.content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo:last-of-type{
+    background: url("../images/web_assets_desktop/our_stories/olga_avatar.jpg") center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+.content-wrapper main.our-stories .main-text-slider{
+    background: #6D764E;
+}
+
+.content-wrapper main .main-text-slider .main-slider-reviews a{
+    color: #FF9F2E;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper main.our-stories .main-banner {
+        background: url("../images/web_assets_mobile/our_stories/banner.jpg");
+        background-size: cover;
+    }
+    .content-wrapper main.our-stories .main-banner h1{
+        color: #684D3A;
+    }
+
+    .content-wrapper main.our-stories .section-1{
+        padding: 0;
+    }
+
+    .content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text .mobile-photo{
+        display: block;
+        width: 175px;
+        height: 175px;
+        margin: 25px auto;
+    }
+
+    .content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text{
+        padding: 40px 25px;
+    }
+
+    .content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text:first-of-type{
+        background-color: #4EADC2;
+        color: white;
+    }
+
+    .content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text:first-of-type .mobile-photo{
+        background: url("../images/web_assets_mobile/our_stories/mark_avatar.png");
+        background-size: cover;
+    }
+
+    .content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text:last-of-type .mobile-photo{
+        background: url("../images/web_assets_mobile/our_stories/olga_avatar.png");
+        background-size: cover;
+    }
+}

@@ -1,0 +1,332 @@
+.content-wrapper main.sign-up-page .main-banner{
+    background: url("../images/web_assets_desktop/sign_up/banner.jpg");
+}
+
+.content-wrapper main.sign-up-page .section-1{
+    background: #4EADC2;
+    min-height: 323px;
+}
+
+.content-wrapper main.sign-up-page .section-1 article h1{
+    color: #FFFFFF;
+}
+
+.content-wrapper main.sign-up-page .section-1 article p{
+    color: #FFFFFF;
+}
+
+
+.content-wrapper main.sign-up-page .section-1 article a.button{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.content-wrapper main.sign-up-page .section-1 article a.button:hover{
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #4EADC2;
+}
+
+.content-wrapper main.sign-up-page .section-2{
+    padding: 0;
+}
+
+.content-wrapper main.sign-up-page .section-2 article{
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.content-wrapper main.sign-up-page .section-2 article:first-of-type{
+    color: #ffffff;
+    padding: 40px 0 40px 140px;
+}
+
+.content-wrapper main.sign-up-page .section-2 article:last-of-type{
+    background-color: #6D764E;
+    padding: 40px 140px 40px 2%;
+}
+
+.content-wrapper main.sign-up-page .section-2 article:first-of-type h1{
+    color: #684E3A;
+}
+
+.content-wrapper main.sign-up-page .section-2 article:last-of-type h1{
+    color: #FEFEFE;
+}
+
+.content-wrapper main.sign-up-page .section-2 article:first-of-type p{
+    color: #684E3A;
+}
+
+.content-wrapper main.sign-up-page .section-2 article:last-of-type a{
+    color: #FFFFFF;
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+    text-align: left;
+}
+
+
+.content-wrapper main.sign-up-page .section-2 article:first-of-type a.button{
+    border-color: #684E3A;
+    color: #684E3A;
+}
+
+.content-wrapper main.sign-up-page .section-2 article:first-of-type a.button:hover{
+    border-color: #684E3A;
+    background-color: #684E3A;
+    color: #ffffff;
+}
+
+.content-wrapper main.sign-up-page .section-3{
+    background-color: #96809B;
+}
+
+.content-wrapper main.sign-up-page .section-3 article{
+    width: 100%;
+}
+
+.content-wrapper main.sign-up-page .section-3 article h1{
+    color: #FFFFFF;
+}
+
+.content-wrapper main.sign-up-page .section-3 article .main-section-events{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content-wrapper main.sign-up-page .section-3 article .main-section-events .event-item{
+    display: flex;
+    flex-direction: column;
+    min-width: 25%;
+}
+
+.content-wrapper main.sign-up-page .section-3 article .main-section-events .event-item span{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+    font-weight: 300;
+    text-align: left;
+}
+
+.content-wrapper main.sign-up-page .section-3 article .main-section-events .event-item span b{
+    font-weight: 500;
+}
+
+.content-wrapper main.sign-up-page .section-3 article .main-section-events .event-item a{
+    color: #FFFFFF;
+}
+
+.content-wrapper main.sign-up-page .section-4{
+    padding: 0;
+}
+
+.content-wrapper main.sign-up-page .section-4 article{
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.content-wrapper main.sign-up-page .section-4 article:first-of-type{
+    background-color: #4EADC2;
+    padding: 40px 0 40px 140px;
+}
+
+.content-wrapper main.sign-up-page .section-4 article:last-of-type{
+    background-color: #6D764E;
+    padding: 40px 140px 40px 2%;
+}
+
+.content-wrapper main.sign-up-page .section-4 article:first-of-type h1{
+    color: #ffffff;
+}
+
+.content-wrapper main.sign-up-page .section-4 article:last-of-type h1{
+    color: #FEFEFE;
+}
+
+.content-wrapper main.sign-up-page .section-4 article:first-of-type p{
+    color: #ffffff;
+}
+
+.content-wrapper main.sign-up-page .section-4 article:first-of-type a.button{
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.content-wrapper main.sign-up-page .section-4 article:first-of-type a.button:hover{
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #4EADC2;
+}
+
+.content-wrapper main.sign-up-page .section-4 article:last-of-type a.button{
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.content-wrapper main.sign-up-page .section-4 article:last-of-type a.button:hover{
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #6D764E;
+}
+
+.content-wrapper main.sign-up-page .section-4 article .section-double-selector{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-wrapper main.sign-up-page .section-4 article .section-double-selector .custom-select:first-of-type{
+    width: 15%;
+    min-width: 72px;
+}
+
+.content-wrapper main.sign-up-page .section-4 article .section-double-selector .custom-select:last-of-type{
+    width: 82%;
+}
+
+@media (max-width: 1030px) {
+    .content-wrapper main.sign-up-page .section-2 article:first-of-type,
+    .content-wrapper main.sign-up-page .section-4 article:first-of-type{
+        padding-left: 25px;
+    }
+
+    .content-wrapper main.sign-up-page .section-2 article:last-of-type,
+    .content-wrapper main.sign-up-page .section-4 article:last-of-type{
+        padding-right: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-wrapper main.sign-up-page .main-banner{
+        background: url("../images/web_assets_mobile/sign_up/banner.jpg") no-repeat top;
+        background-size: cover;
+        height: 275px;
+    }
+
+    .content-wrapper main.sign-up-page .main-section{
+        margin: 12px;
+        padding: 0;
+    }
+
+    .content-wrapper main.sign-up-page .main-section article{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .content-wrapper main.sign-up-page .main-section article > *{
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+    }
+
+    .content-wrapper main.sign-up-page .main-section article h1{
+        border-top: 2px solid white;
+        text-align: center;
+        padding: 25px;
+        margin: 0;
+    }
+
+    .content-wrapper main.sign-up-page .main-section article h1.article-title{
+        border-bottom: 2px solid white;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        border-top: none;
+        padding: 15px;
+        font-weight: 500;
+        text-align: center;
+        color: #fff;
+    }
+
+    .content-wrapper main.sign-up-page .main-section article p{
+        font-size: 20px;
+        font-weight: lighter;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .content-wrapper main.sign-up-page .section-1 .news-letter-form{
+        width: 90%;
+        margin: 0 auto 25px auto;
+    }
+
+    .content-wrapper main.sign-up-page .section-2 article:first-of-type
+    {
+        border: 2px solid #6D764E;
+        padding: 0 0 20px 0;
+        margin-bottom: 15px;
+        background-color: #F8F8F0;
+    }
+
+    .content-wrapper main.sign-up-page .section-2 article:first-of-type h1,
+    .content-wrapper main.sign-up-page .section-3 article h1.article-title{
+        color: #6D764E;
+        border-color: #6D764E;
+    }
+
+    .content-wrapper main.sign-up-page .section-2 article:last-of-type{
+        padding: 0 0 20px 0;
+    }
+
+    .content-wrapper main.sign-up-page .section-2 article:last-of-type h1{
+        border-color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    .content-wrapper main.sign-up-page .section-2 article:last-of-type a {
+        font-size: 20px;
+        padding: 5px 20px;
+    }
+
+    .content-wrapper main.sign-up-page .section-3{
+        background-color: transparent;
+    }
+
+    .content-wrapper main.sign-up-page .section-3 article{
+        border: 2px solid #6D764E;
+        padding: 0 0 20px 0;
+        background-color: #F8F8F0;
+    }
+
+    .content-wrapper main.sign-up-page .section-3 .main-section-events{
+        flex-direction: column;
+    }
+
+    .content-wrapper main.sign-up-page .section-3 article .main-section-events .event-item{
+        padding: 20px;
+    }
+
+    .content-wrapper main.sign-up-page .section-3 article .main-section-events .event-item span,
+    .content-wrapper main.sign-up-page .section-3 article .main-section-events .event-item a{
+        color: #6D764E;
+    }
+
+
+    .content-wrapper main.sign-up-page .section-4 article:first-of-type,
+    .content-wrapper main.sign-up-page .section-4 article:last-of-type
+    {
+        padding: 0 0 20px 0;
+    }
+
+    .content-wrapper main.sign-up-page .section-4 article:first-of-type{
+        margin-bottom: 15px;
+    }
+
+    .content-wrapper main.sign-up-page .section-4 article:first-of-type p{
+        text-align: center;
+    }
+
+    .content-wrapper main.sign-up-page .section-4 article .section-double-selector{
+        width: 90%;
+        margin: 25px auto;
+    }
+
+}

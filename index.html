@@ -19,7 +19,7 @@ details:
     video_description: In 2018, the first documentary film describing NeuroMovement, 'Life Unbound' started its showings across the globe
     video_link: <a href="https://www.anatbanielmethod.com/about-abm/supporting-research">Please review the supporting research</a>
 book:
-    author: Anat Baniel is an author of books 'Move Into Life' and 'Kids Beyond Limits.' To learn more about NeuroMovement directly from the founder, please read about <a href="https://www.anatbanielmethod.com/about-abm/evolution-of-the-method">how the Anat Baniel Method evolved from the Feldenkrais Method</a>
+    author: Anat Baniel is an author of books <a href="#">'Move Into Life'</a> and <a href="#">'Kids Beyond Limits.'</a> To learn more about NeuroMovement directly from the founder, please read about <a href="https://www.anatbanielmethod.com/about-abm/evolution-of-the-method">how the Anat Baniel Method evolved from the Feldenkrais Method</a>
 
 highlight:
     title: Find out more about our NeuroMovement sessions
@@ -30,163 +30,81 @@ highlight:
 
 <!--<div id="banner"></div>-->
 
-    <main id="content-wrapper">
-        <header class="content">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                    <div class="banner home">
-                        <h1>
-                            {{ page.banner.title }}
-                            <a href="{{ page.banner.link }}">{{ page.banner.call }}</a>
-                        </h1>
-                    </div>
-                </div>
+<main class="home-page">
+        <section class="main-banner">
+            <div>
+                <h1>
+                    {{ page.banner.title }}
+                </h1>
+                <a href="{{ page.banner.link }}">{{ page.banner.call }}</a>
             </div>
-        </header>
-        <section id="testimonials" class="content">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                    <div class="highlight-section blue">
-                        <div class="highlight-section-text">
-                            <div class="pure-g">
-                                <div class="pure-u-1-6 pure-u-md-1-6 pure-u-lg-1-6">
-                                    <img src="assets/css/img/home/quote.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                                </div>
-                                <div class="pure-u-5-6 pure-u-md-5-6 pure-u-lg-5-6">
-                                    <div class="testimonial-list">
-                                        {% include testimonials.html %}
-                                    </div>
-                                </div>
-                            </div>
+        </section>
 
-                            <p></p>
-                            <div class="pure-g">
-                                <div class="pure-u-1-8"></div>
-                                <div class="pure-u-1-8"></div>
-                                <div class="pure-u-1-8"></div>
-                                <div class="pure-u-1-8" style="text-align: right">
-                                    <a href=''><img id='testimonial-left' src="assets/css/img/home/arrow_right.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" /></a>
-                                </div>
-                                <div class="pure-u-1-8" style="text-align: right">
-                                    <a href=''><img id='testimonial-right' src="assets/css/img/home/arrow_left.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" /></a>
-                                </div>
-                                <div class="pure-u-1-8"></div>
-                                <div class="pure-u-1-8"></div>
-                                <div class="pure-u-1-8"></div>
-                                <!--<div class="pure-u-1-8 scroll-top">-->
-                                            <!--<img src="assets/css/img/home/scroll_to_top_btn.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />-->
-                                <!--</div>-->
-                            </div>
+        {% include testimonials.html %}
 
-                        </div>
-                        <div class="highlight-section-special indent">
-                            <div class="pure-g">
-                                <div class="pure-u-1-6 pure-u-md-1-6 pure-u-lg-1-6">
-                                    <img src="assets/css/img/home/yelp.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                                </div>
-                                <div class="pure-u-5-6 pure-u-md-5-6 pure-u-lg-5-6">
-                                    <div class="highlight-section-special"><a href="">MORE REVIEWS ON YELP</a></div>
-                                </div>
-                            </div>
-                        </div>
+        <section class="main-section section-1">
+            <div class="main-section-text">
+                <p>
+                    {{ page.intro.text }}
+                </p>
+            </div>
+            <div class="main-section-content">
+                {% include newsletter-form.html %}
+
+                <div class="news-letter-social">
+                    <p class="label">We are social, too:</p>
+                    <div class="social-item facebook">
+                        <img src="assets/images/web_assets_desktop/home/facebook_f.svg" alt="facebook">
+                    </div>
+                    <div class="social-item twitter">
+                        <img src="assets/images/web_assets_desktop/home/twitter_t.svg" alt="twitter">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="content intro-section">
-                            <div class="pure-g">
-                                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                                    <p>{{ page.intro.text }}</p>
-                                </div>
-                                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 center-box">
-                                    {% include social-form.html %}
-                                </div>
-                            </div>
-
-        </section>
-
-
-        <section class="content">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                    <div class="details-section over-dark-image">
-                        <a href="" >
-                            <img src="assets/css/img/home/pic2.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                        </a>
-                        <div class="details-section-text-over-image">
-                            <p>{{ page.details.title }}</p>
-                            <ul>
-                                {% for t in page.details.list %}
-                                    <li>{{ t }}</li>
-                                {% endfor %}
-                            </ul>
-                            <div class="details-section-video">
-                                <div><iframe src="https://player.vimeo.com/video/286300611?color=7DA444&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                            </div>
-                            <div class="details-section-description">
-                                <p>{{ page.details.video_description }}</p>
-                            </div>
-                            <br />
-                            {{ page.details.video_link }}
-                        </div>
-                    </div>
+        <section class="main-section section-2">
+            <div class="main-section-text">
+                <p>
+                    {{ page.details.title }}
+                </p>
+                <ul>
+                    {% for t in page.details.list %}
+                    <li>{{ t }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="main-section-content">
+                <div class="video">
+                    <iframe title="vimeo-player"
+                            src="https://player.vimeo.com/video/286300611?color=7DA444&title=0&byline=0&portrait=0"
+                            width="100%" height="300" frameborder="0" allowfullscreen></iframe>
                 </div>
+                <p class="video-title">{{ page.video.description }}</p>
+
+                {{ page.video.link }}
+
             </div>
         </section>
 
-
-        <section class="content">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                    <div class="info-section-simple">
-                        <!--<div class="info-section-title">-->
-                            <div class="info-section-simple-text">
-                                <p>{{ page.book.author }}</p>
-                            </div>
-
-                        <!--</div>-->
-                        <div class="info-section-simple-images">
-                            <div class="pure-g">
-
-                                <div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">
-                                    <a class="book" href="" >
-                                        <img src="assets/css/img/home/book1.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                                    </a>
-                                </div>
-                                <div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">
-                                    <a class="book" href="" >
-                                        <img src="assets/css/img/home/book2.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <section class="main-section section-3">
+            <div class="main-section-text">
+                <p>
+                    {{ page.book.author }}
+                </p>
+            </div>
+            <div class="main-section-content">
+                <div class="content-book-1"></div>
+                <div class="content-book-2"></div>
             </div>
         </section>
 
-        <section class="content">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                    <div class="highlight-section blue">
-                        <div class="highlight-section-text large center">
-                            <div class="pure-g">
-                                <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                                    {{ page.highlight.title }}
-                                </div>
-                            </div>
-
-                            <a class="pure-button action-button-white" href="{{ page.highlight.action.link }}">{{ page.highlight.action.call }}</a>
-
-                        </div>
-                    </div>
+        <section class="main-section section-text-button">
+            <div>
+                <div class="main-section-text">
+                    <p>{{ page.highlight.title }}</p>
                 </div>
+                <a href="{{ page.highlight.link }}">{{ page.highlight.call }}</a>
             </div>
         </section>
     </main>
-
-
-
-
-</div>

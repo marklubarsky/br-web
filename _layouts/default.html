@@ -1,51 +1,48 @@
 <!doctype html>
 <html lang="en">
-<body>
+<!--<head>-->
+    <!--<meta charset="utf-8">-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <!--<meta name="description" content="{{ site.description }} {{ page.description }}">-->
+    <!--<meta name="google-site-verification" content="suhqAc8k-v2-iu4i_4oApu2h_cyYtcstLWXpc_uJbX4" />-->
+    <!--<title>{{ site.title }} | {{ page.title }} </title>-->
 
-<!--<div id="layout">-->
-<div class="header">
-    <div class="pure-g pure-menu-heading">
-        <!--348 (66 + 282) + 1092 ()-->
-        <div class="pure-u-1-4 pure-u-md-1-4 pure-u-lg-1-4   left-menu">
-            <div class="header-logo">
-                <!--<a href="./" >-->
-                <!--<img src="assets/css/img/home/brainature_hor_logo.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />-->
-                <!--</a>-->
-            </div>
-            <div class="header-location">SAN MATEO, CA</div>
-        </div>
-        <div class="pure-u-1-2 pure-u-md-2-3 pure-u-lg-2-3">
-            {% include menu-desktop.html %}
-        </div>
-        <div class="pure-u-1-4 pure-u-md-1-6 pure-u-lg-1-6">
-            <a href="sign_up.html" class="pure-button header-button-signup">SIGN UP</a>
-        </div>
-    </div>
-</div>
+    <!--<link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">-->
+    <!--<link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">-->
+    <!--<link rel="icon" type="image/png" sizes="194x194" href="favicon_package_v0.16/favicon-194x194.png">-->
+    <!--<link rel="icon" type="image/png" sizes="192x192" href="favicon_package_v0.16/android-chrome-192x192.png">-->
+    <!--<link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">-->
+    <!--<link rel="manifest" href="favicon_package_v0.16/site.webmanifest">-->
+    <!--<link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#6d764e">-->
+    <!--<meta name="msapplication-TileColor" content="#ffffff">-->
+    <!--<meta name="msapplication-TileImage" content="favicon_package_v0.16/mstile-144x144.png">-->
+    <!--<meta name="theme-color" content="#ffffff">-->
 
-{% include menu.html %}
+    <!--<link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800'-->
+          <!--rel='stylesheet' type='text/css'>-->
+    <!--&lt;!&ndash;<link href='http://fonts.googleapis.com/css?family=Montserrat:Light' rel='stylesheet' type='text/css'>&ndash;&gt;-->
+    <!--&lt;!&ndash;<![endif]&ndash;&gt;-->
 
-<main>
-    {{ content }}
-</main>
-
-{% include footer.html %}
+    <!--<link rel="stylesheet" href="assets/styles/style.css">-->
+    <!--<link rel="stylesheet" href="assets/styles/home.css">-->
 
 
-<!--</div>-->
+    <!--<script>-->
+        <!--(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
+                <!--(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
+            <!--m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
+        <!--})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');-->
 
+        <!--ga('create', 'UA-12002560-2', 'auto');-->
+        <!--ga('send', 'pageview');-->
 
-
-<script src="assets/js/ui.js"></script>
-
-</body>
+    <!--</script>-->
+<!--</head>-->
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ site.description }} {{ page.description }}">
-    <meta name="google-site-verification" content="suhqAc8k-v2-iu4i_4oApu2h_cyYtcstLWXpc_uJbX4" />
-	<title>{{ site.title }} | {{ page.title }} </title>
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="194x194" href="favicon_package_v0.16/favicon-194x194.png">
@@ -56,36 +53,29 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="favicon_package_v0.16/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
-    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/home.css">
     <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800'
           rel='stylesheet' type='text/css'>
-    <!--<link href='http://fonts.googleapis.com/css?family=Montserrat:Light' rel='stylesheet' type='text/css'>-->
-    <!--<![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/styles-mobile.css" media="screen and (max-width: 599px)" />
-    <link rel="stylesheet" type="text/css" href="assets/css/styles-desktop.css" media="screen and (min-width: 600px)">
-
-    {% if page.url == '/schedule.html' %}
-        <link rel="stylesheet" href="assets/css/pricing.css">
-    {% endif %}
-
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-12002560-2', 'auto');
-        ga('send', 'pageview');
-
-    </script>
+    <title>BRAINature | ABM NeuroMovement Practitioners studio in San Mateo, CA</title>
 </head>
+<body>
+
+<div class="content-wrapper">
+
+{% include header.html %}
+
+{{ content }}
+
+{% include footer.html %}
+
+
+</div>
+
+
+
+<script src="assets/scripts/script.js"></script>
+<script src="assets/scripts/slider.js"></script>
+
+</body>
 </html>
