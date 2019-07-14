@@ -10,15 +10,20 @@
 
     <div class="header-mid hidden">
         <nav class="header-nav">
-            <a class="header-nav-item" href="neuromovement.html">NEUROMOVEMENT</a>
-            <a class="header-nav-item" href="special_kids.html">SPECIAL KIDS</a>
-            <a class="header-nav-item" href="high_performers.html">HIGH PERFORMERS</a>
-            <a class="header-nav-item" href="our_stories.html">OUR STORIES</a>
-            <a class="header-nav-item" href="location.html">LOCATION</a>
-            <a class="header-nav-item">RESOURCES</a>
+            {% assign menu_items = site.html_pages | sort: 'menu_order' %}
+            {% for p in menu_items %}
+                {% unless p.exclude %}
+                    {% if p.title == page.title %}
+                        {% assign select_tag = ' active' %}
+                    {% else %}
+                        {% assign select_tag = '' %}
+                    {% endif %}
+                    <a class="header-nav-item{{ select_tag }}" href="{{ p.url | prepend:site.baseurl}}">{{ p.title }}</a>
+                {% endunless %}
+            {% endfor %}
         </nav>
         <div class="header-info">
-            ABM NeuroMovement® Practitioners | San Mateo, CA | 650.703.2010 (Olga) | 650.576.3650 (Mark)
+            ABM NeuroMovement® Practitioners | San Mateo, CA | {{site.phones.olga}} (Olga) | {{site.phones.mark}} (Mark)
         </div>
     </div>
     <a href="./signup.html">

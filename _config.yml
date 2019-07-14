@@ -16,7 +16,9 @@
 title: BRAINature | ABM NeuroMovement Practitioners studio in San Mateo, CA
 company: BRAINature
 email: info@brainature.com
-phone: (650)&nbsp;703&#8209;2010
+phones:
+  olga: 650.703.2010
+  mark: 650.576.3650
 description: Everybody can learn how to move without pain and limitations
 baseurl: /br-web/ # the subpath of your site, e.g. /blog
 url: http://www.movebetterpilates.com

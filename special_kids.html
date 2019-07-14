@@ -21,7 +21,7 @@ highlights:
     gift:
         title: Can your child or someone you know benefit from ABM NeuroMovement?
         action:
-            link: sign_up.html
+            link: signup.html
             call: BUY A GIFT CERTIFICATE
     mark:
         title: Effective March 2019, Mark will start Mastery Training specifically for Children. As part of his practicum, he will be offering FREE sessions to kids (under 18 years old). Kids who sign up for these free sessions will be able to receive a set of limited (yet regular) hands-on sessions (Functional Synthesis) throughout the entire 2019, while Mark continues this Mastery training.
@@ -33,127 +33,77 @@ video:
     subtitle: for the new documentary about NeuroMovement with kids
 ---
 
-<!--<div id="banner"></div>-->
 
-<div id="content-wrapper">
-    <div class="content">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="banner special_kids">
-                    <h1>{{ page.title }}</h1>
-                </div>
+
+<main class="special-kids">
+    <section class="main-banner">
+        <div>
+            <h1>
+                {{ page.title }}
+            </h1>
+        </div>
+    </section>
+    <section class="main-section main-banner-section">
+        <p>
+            {{ page.intro }}
+        </p>
+    </section>
+    <section class="main-section section-1">
+        <article class="main-section-text">
+            <p>
+                {{ page.details }}
+            </p>
+        </article>
+        <div class="main-section-content">
+        </div>
+    </section>
+    <section class="main-section section-2">
+        <article class="main-section-text">
+            <h1>{{ page.examples.title }}</h1>
+            <p>
+                {{ page.examples.subtitle }}
+            </p>
+        </article>
+        <div class="main-section-content">
+            <ul>
+                {% for li in page.examples.list %}
+                <li>{{ li }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+
+    <section class="main-section section-text-button">
+        <div>
+            <div class="main-section-text">
+                <p>{{ page.highlights.gift.title }}</p>
+            </div>
+            <a href="{{page.highlights.gift.action.link}}" class="button">{{page.highlights.gift.action.call}}</a>
+        </div>
+    </section>
+    <section class="main-section section-3">
+        <article class="main-section-text">
+            <h1>{{ page.video.title }}</h1>
+            <p>
+                {{ page.video.subtitle }}
+            </p>
+        </article>
+        <div class="main-section-content">
+            <div class="video">
+                <iframe title="vimeo-player"
+                        src="https://player.vimeo.com/video/286300611?color=7DA444&title=0&byline=0&portrait=0"
+                        width="100%" height="300" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-    </div>
-
-    <div class="content">
-        <div class="highlight-section blue">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-
-                    <div class="highlight-section-text large">
-                            <p>{{ page.intro }}</p>
-                    </div>
-                </div>
-            </div>
+    </section>
+    <section class="main-section section-contact">
+        <div class="section-contact-avatar">
         </div>
-    </div>
-
-
-    <div class="content">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="banner">
-                    <a href="" >
-                        <img src="assets/css/img/special_kids/pic1.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                    </a>
-                    <div class="banner-text-single">
-                        <br>
-                    </div>
-                </div>
-            </div>
+        <div class="section-content-text">
+            <p>
+                {{ page.highlights.mark.title }}
+            </p>
+            <a href="{{page.highlights.mark.action.link}}" class="button">{{page.highlights.mark.action.call}}</a>
         </div>
-    </div>
-
-
-    <div class="content">
-        <div class="details-section light">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-
-                    <div class="details-section-text">
-                        <div class="details-section-title">
-                            <p>{{ page.details }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="content">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="highlight-section green">
-                    <div class="highlight-section-text">
-                        <div class="content-head">
-                            <h2>{{ page.examples.title }}</h2>
-                            <h3>{{ page.examples.subtitle }}</h3>
-                        </div>
-                        <div class="pure-g">
-                            <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                                <ul>
-                                    {% for li in page.examples.list %}
-                                        <li>{{ li }}</li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="content">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="highlight-section blue">
-                    <div class="highlight-section-text large center">
-                        <div class="pure-g">
-                            <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                                {{ page.highlights.gift.title}}
-                            </div>
-                        </div>
-
-                        <a class="pure-button action-button-white" href="{{ page.highlights.gift.action.link}}">{{ page.highlights.gift.action.call}}</a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="content">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="highlight-section light center fix-padding">
-
-                    <div class="highlight-section-text center">
-                        <div class="content-head">
-                            <h2 class="center">{{ page.video.title }}</h2>
-                        </div>
-                        <p>{{ page.video.subtitle }}</p>
-                    </div>
-
-
-                        <div class="details-section-video video-padding">
-                            <div><iframe src="https://player.vimeo.com/video/286300611?color=7DA444&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                        </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </section>
+</main>

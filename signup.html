@@ -1,0 +1,151 @@
+---
+layout: default
+title: Sign Up
+menu_order: 6
+description:
+
+intensives:
+    title: 4-week intensives Program
+    text: '"Intensives" is a group of 10-15 lessons given over a period of 4 weeks. Two to four months later, you may return for another intensive. As your abilities progress, frequency of the visits goes down. Between visits, especially in the beginning, we often suggest 1-2 lessons a week until the next intensive.'
+    action:
+        call: SIGN UP
+        link: https://www.wellnessliving.com/rs/appointment-start.html?id_class_tab=3&k_business=254977&k_service=91442
+    details:
+         - title: Why Intensive?
+           action:
+             link: https://www.wellnessliving.com/rs/appointment-start.html?id_class_tab=3&k_business=254977&k_service=91442
+         - title: FREE Consultation
+           action:
+                call: SCHEDULE
+                link: https://www.wellnessliving.com/rs/appointment-start.html?id_class_tab=3&k_business=254977&k_service=91442
+
+
+
+maintenance:
+    title: Maintenance Program
+    subtitle: Pick follow-up sessions from Move&nbsp;Better&nbsp;Now
+    action:
+        call: MOVEBETTERNOW.COM
+        link: http://www.movebetternow.com
+
+prepare:
+    title: Prepare for Your First Session
+    list:
+        - action:
+            call: Adult Intake Form
+            link: #
+        - action:
+            call: Child Intake Form
+            link: #
+        - action:
+            call: Terms and Conditions
+            link: #
+
+events:
+    title: Workshops and Events
+    list:
+        - title: Introduction to ABM
+          date: OCTOBER 27, 2019
+          description: Adult $50, children (2-12) FREE
+          action:
+            call: EARLY-BIRD REGISTRATION
+            link: signup.html
+
+promotion:
+    title: Limited Time Only! 07/1 - 07/31
+    action:
+        title: Introductory Program (3 hands-on lessons - $330)
+        call: SIGN UP
+        link: signup.html
+
+gift:
+    title: Give a Gift of NeuroMovement
+    action:
+        call: PURCHASE
+        link: signup.html
+
+---
+
+
+<main class="sign-up-page">
+    <section class="main-banner">
+        <div>
+            <h1>
+                {{ page.title }}
+            </h1>
+        </div>
+    </section>
+    <section class="main-section section-1">
+        <article class="main-section-text">
+            <h1 class="article-title">{{page.intensives.title}}</h1>
+            <p>
+                {{page.intensives.text}}
+            </p>
+            <!--<a href="{{page.intensives.action.link}}" class="button sign-up-button">{{page.intensives.action.call}}</a>-->
+        </article>
+        <article class="main-section-content">
+            <h1>{{page.intensives.details[0].title}}</h1>
+            {% include newsletter-form.html %}
+            <h1>{{page.intensives.details[1].title}}</h1>
+            <a href="{{page.intensives.details[1].action.link}}" class="button sign-up-button">{{page.intensives.details[1].action.call}}</a>
+        </article>
+    </section>
+    <section class="main-section section-2">
+        <article class="main-section-text">
+            <h1 class="article-title">{{page.maintenance.title}}</h1>
+            <p>
+                {{page.maintenance.subtitle}}
+            </p>
+            <a href="{{page.maintenance.action.link}}" class="button sign-up-button">{{page.maintenance.action.call}}</a>
+        </article>
+        <article class="main-section-content">
+            <h1 class="article-title">{{page.prepare.title}}</h1>
+            {% for a in page.prepare.list %}
+                <a href="{{a.action.link}}">{{a.action.call}}</a>
+            {% endfor %}
+        </article>
+    </section>
+    <section class="main-section section-3">
+        <article class="main-section-text">
+            <h1 class="article-title">{{page.events.title}}</h1>
+            <div class="main-section-events">
+                {% for event in page.events.list %}
+                    <div class="event-item">
+                        <span><b>{{event.date}}</b></span>
+                        <span>{{event.title}}</span>
+                        <span>{{event.description}}</span>
+                        <span><a href="{{event.action.link}}"><b>{{event.action.call}}</b></a></span>
+                    </div>
+                {% endfor %}
+            </div>
+        </article>
+    </section>
+    <section class="main-section section-4">
+        <article class="main-section-text">
+            <h1 class="article-title">{{page.promotion.title}}</h1>
+            <p>
+                {{page.promotion.action.title}}
+            </p>
+            <a class="button sign-up-button" href="{{page.promotion.action.link}}">{{page.promotion.action.call}}</a>
+        </article>
+        <article class="main-section-content">
+            <h1 class="article-title">{{page.gift.title}}</h1>
+            <!--<div class="section-double-selector">-->
+                <!--<label class="custom-select">-->
+                    <!--<select>-->
+                        <!--<option>1</option>-->
+                        <!--<option>2</option>-->
+                        <!--<option>3</option>-->
+                        <!--<option>4</option>-->
+                    <!--</select>-->
+                <!--</label>-->
+                <!--<label class="custom-select">-->
+                    <!--<select>-->
+                        <!--<option>Adult lessons</option>-->
+                    <!--</select>-->
+                <!--</label>-->
+            <!--</div>-->
+            <a class="button sign-up-button" href="{{page.gift.action.link}}">{{page.gift.action.call}}</a>
+        </article>
+    </section>
+</main>

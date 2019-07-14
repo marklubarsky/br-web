@@ -13,11 +13,11 @@ highlights:
     - title: Between your sessions, we coach you on how to integrate changes in your daily life and form new habitual movement patterns.
       action:
             call: CONSULT FOR FREE
-            link: sign_up.html
+            link: signup.html
     - title: Is NeuroMovement right for you? Find out at our FREE consultation
       action:
             call: SIGN UP
-            link: sign_up.html
+            link: signup.html
 
 details:
     explanation:
@@ -30,10 +30,10 @@ details:
             - While the "visible" focus is on neuro-muscular conditioning and chronic pain relief, these newly acquired skills are ready to be integrated into any daily activity.
 
     science:
-        - title: Science
-          text:
+        title: Science
+        text:
             - The scientists are now making progress in their research of the relationship between brain and movement, mind and body, and the whole concept that the two are not separated. All of our pain and limitations, whether they stem from physical injuries/conditions, emotional stress, poor habits, self-limiting thinking patterns, are interconnected. We help you start this process of overcoming your limitations by helping you learn how to use less effort and to achieve more outcome naturally.
-            - <a href="https://www.anatbanielmethod.com/about-abm/supporting-research">Please review the supporting research</a>
+            - <a href="https://www.anatbanielmethod.com/about-abm/supporting-research" class="supporting-research">Please review the supporting research</a>
 
 examples:
     - title: Most common musculoskeletal conditions
@@ -55,194 +55,84 @@ examples:
 
 ---
 
-<!--<div id="banner"></div>-->
 
-<div id="content-wrapper">
-    <div class="content">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="banner neuromovement">
-                    <h1>{{ page.banner.title }}</h1>
-                </div>
-            </div>
+
+
+<main class="neuromovement">
+    <section class="main-banner">
+        <div>
+            <h1>
+               {{ page.title }}
+            </h1>
         </div>
-    </div>
+    </section>
 
-    <div class="content">
-        <div class="details-section green">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-
-                    <div class="details-section-text">
-                        <div class="details-section-title">
-                            <div class="content-head">
-                                <h2>{{ page.intro.title }}</h2>
-                            </div>
-                            <p>{{ page.intro.text }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="main-section section-1">
+        <article class="main-section-text">
+            <h1>{{ page.intro.title }}</h1>
+            <p>{{ page.intro.text }}</p>
+        </article>
+        <div class="main-section-content">
         </div>
-    </div>
-
-    <div class="content">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="banner">
-                    <a href="" >
-                        <img src="assets/css/img/neuromovement/pic1.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                    </a>
-                    <div class="banner-text-single">
-                        <br>
-                    </div>
-                </div>
+    </section>
+    <section class="main-section section-text-button">
+        <div>
+            <div class="main-section-text">
+                <p>{{ page.highlights[0].title }}</p>
             </div>
+            <a class="button" href="{{ page.highlights[0].action.link }}">{{ page.highlights[0].action.call }}</a>
         </div>
-    </div>
-
-
-<div class="content">
-    <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-            <div class="highlight-section blue">
-                <div class="highlight-section-text large blue center">
-                    <div class="pure-g">
-                        <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                            {{ page.highlights[0].title }}
-                        </div>
-                    </div>
-
-                    <a class="pure-button action-button-white" href="{{ page.highlights[0].action.link }}">{{ page.highlights[0].action.call }}</a>
-
-                </div>
+    </section>
+    <section class="main-section section-2">
+        <article class="main-section-text">
+            <h1>{{ page.details.explanation.title}}</h1>
+            {% for t in page.details.explanation.text %}
+                <p>{{ t }}</p>
+            {% endfor %}
+        </article>
+        <div class="main-section-content">
+        </div>
+    </section>
+    <section class="main-section section-3">
+        <article class="main-section-text">
+            <h1>{{ page.details.science.title}}</h1>
+            <p>{{ page.details.science.text[0] }}</p>
+            {{ page.details.science.text[1] }}
+        </article>
+        <div class="main-section-content">
+        </div>
+    </section>
+    <section class="main-section section-4">
+        <article class="main-section-text">
+            <h1>{{ page.examples[0].title}}</h1>
+            <p>{{ page.examples[0].subtitle}}</p>
+        </article>
+        <div class="main-section-content">
+            <ul>
+                {% for li in page.examples[0].list %}
+                <li>{{ li }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+    <section class="main-section section-5">
+        <article class="main-section-text">
+            <h1>{{ page.examples[1].text}}</h1>
+            <ul>
+                {% for li in page.examples[1].list %}
+                <li>{{ li }}</li>
+                {% endfor %}
+            </ul>
+        </article>
+        <div class="main-section-content">
+        </div>
+    </section>
+    <section class="main-section section-text-button section-6">
+        <div>
+            <div class="main-section-text">
+                <p>{{ page.highlights[1].title }}</p>
             </div>
+            <a class="button" href="{{ page.highlights[1].action.link }}">{{ page.highlights[1].action.call }}</a>
         </div>
-    </div>
-</div>
-
-<div class="content over-bright-image">
-    <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-            <div class="details-section">
-                <a href="" >
-                    <img src="assets/css/img/neuromovement/pic2.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                </a>
-                <div class="details-section-text-over-image over-bright-image">
-                    <div class="content-head over-bright-image">
-                        <h2>{{ page.details.explanation.title}}</h2>
-                    </div>
-                    {% for t in page.details.explanation.text %}
-                        <p>{{ t }}</p>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-    <div class="content">
-        <div class="details-section green">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-
-                    <div class="details-section-text">
-                        <div class="details-section-title">
-                            <div class="content-head bright">
-                                <h2>{{ page.details.science.title}}</h2>
-                            </div>
-                             <p>{{ page.details.science.text[0]}}</p>
-                             <p>{{ page.details.science.text[1]}}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="content">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="banner">
-                    <a href="" >
-                        <img src="assets/css/img/neuromovement/pic3.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                    </a>
-                    <div class="banner-text-single">
-                        <br>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="content">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="highlight-section blue">
-                    <div class="highlight-section-text">
-                        <div class="content-head">
-                            <h2>{{ page.examples[0].title}} </h2>
-                            <h3>{{ page.examples[0].subtitle}} </h3>
-                        </div>
-                        <div class="pure-g">
-                            <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                                <ul>
-                                    {% for li in page.examples[0].list %}
-                                    <li>{{ li }}</li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="content over-bright-image">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="info-section">
-                    <a href="" >
-                        <img src="assets/css/img/neuromovement/pic4.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                    </a>
-                    <div class="info-section-text">
-                        <p>
-                            {{ page.examples[1].text}}
-                        </p>
-                        <div class="pure-g">
-                            <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                                <ul class="large-list">
-                                    <ul>
-                                        {% for li in page.examples[1].list %}
-                                        <li>{{ li }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="content">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <div class="highlight-section green">
-                    <div class="highlight-section-text large center">
-                        <div class="pure-g">
-                            <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                                {{ page.highlights[1].title }}
-                            </div>
-                        </div>
-
-                        <a class="pure-button action-button-white center" href="{{ page.highlights[1].action.link }}">{{ page.highlights[1].action.call }}</a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </section>
+</main>

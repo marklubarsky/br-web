@@ -517,6 +517,10 @@ label.custom-select{
     margin-top: 25px;
 }
 
+.content-wrapper footer .footer-info .footer-info-call-us{
+    margin-top: 25px;
+}
+
 .content-wrapper footer .footer-connect{
     display: flex;
     flex-direction: column;
@@ -787,6 +791,10 @@ label.custom-select{
     }
 
     .content-wrapper footer .footer-info .footer-info-email-us{
+        display: none;
+    }
+
+    .content-wrapper footer .footer-info .footer-info-call-us{
         display: none;
     }
 

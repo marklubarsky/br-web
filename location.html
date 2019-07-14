@@ -3,112 +3,54 @@ layout: default
 title: Location
 menu_order: 8
 description:
+information:
+    title: Additional Information
+    text: 'Our studio is at the corner of El Camino Real & 37th Ave, a few blocks from the Hillsdale Shopping Center. There is free 2 hour parking on 37th Ave, a small parking lot behind our building, and some parking on El Camino Real and the neighborhood streets. We have a security system downstairs. So when you arrive for your session, please, find “BRAINature” in the list of names and press “CALL” button to reach us.'
+highlight:
+    title: Would like to give NeuroMovement a try?
+    action:
+        call: CONSULT FOR FREE
+        link: signup.html
 ---
 
 <!--<div id="banner"></div>-->
 
-<div id="content-wrapper">
-        <div class="content">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                    <div class="location-section very-light">
-                        <!--<div class="info-section-title">-->
-                        <div class="location-text very-light">
-                            <div class="content-head">
-                                <h1>Our Location</h1>
-                            </div>
-                            <div class="info-section-simple-images">
-                                <div id="map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12655.536278648795!2d-122.29473!3d37.53423!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xec901b38f08da728!2sBRAINature!5e0!3m2!1sen!2sus!4v1487578044606" width="100%" height="363px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                </div>
-                            </div>
-                            <p>BRAINature (c/o Move Better Now)<br/>
-                            3-West 37-th Avenue, Suite 22 & 23<br/>
-                            San Mateo, CA 94403</p>
-                            <div>
-                                <div class="phone-icon">
-                                    <img src="assets/css/img/location/call_icon.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                                </div>
-                                <div class="phone-number">650.703.2010 (Olga)</div>
-                            </div>
-                            <div>
-                                <div class="phone-icon">
-                                    <img src="assets/css/img/location/call_icon.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                                </div>
-                                <div class="phone-number">650.576.3650 (Mark)</div>
-                            </div>
-                            <div>
-                                <div class="email-icon">
-                                    <img src="assets/css/img/location/email_icon.svg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                                </div>
-                                <a href="mailto:{{ site.email }}?Subject=Request%20information" target="_blank" class="email-address">EMAIL US</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+<main class="location">
+    <section class="main-banner">
+        <div>
+            <h1>
+                Our Location
+            </h1>
+            <span>BRAINature (c/o Move Better Now)</span>
+            <span>3-West 37th Avenue, , Suite 22 & 23</span>
+            <span>San Mateo, CA 94403</span>
+            <span><span class="icon-phone"></span><a href="tel:+6507032010">{{site.phones.olga}}</a> (Olga)</span>
+            <span><span class="icon-phone"></span><a href="tel:+6505763650">{{site.phones.mark}}</a> (Mark)</span>
+            <a href="mailto:{{ site.email }}?Subject=Request%20information"><span class="icon-email"></span>EMAIL US</a>
+        </div>
+        <a href="https://www.google.com/maps?ll=37.53423,-122.29473&z=14&t=m&hl=uk-UA&gl=US&mapclient=embed&cid=17046154520965261096" target="_blank"><div class="main-banner-map"></div></a>
+    </section>
+    <section class="main-section section-1">
+        <div class="main-section-content">
+        </div>
+        <article class="main-section-text">
+            <h1>{{page.information.title}}</h1>
+            <p>
+                {{page.information.text}}
+            </p>
+        </article>
+    </section>
+    <section class="main-section section-2">
+        <div>
+            <div class="main-section-text">
+                <p>Would like to give NeuroMovement a try?</p>
+            </div>
+            <div class="main-section-content">
+                <p><span class="icon-phone"></span>{{site.phones.olga}} (Olga)</p>
+                <p> {{site.phones.mark}} (Mark)</p>
+                <p>or</p>
+                <a href="{{page.highlight.action.link}}" class="button">{{page.highlight.action.call}}</a>
             </div>
         </div>
-
-
-        <div class="content">
-            <div class="details-section green">
-                <div class="pure-g">
-                    <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-
-                        <div class="details-section-text">
-                            <div class="details-section-title">
-                                <div class="content-head">
-                                    <h2>Additional Information</h2>
-                                </div>
-                                <p>Our studio is at the corner of El Camino Real & 37th Ave, a few blocks from the Hillsdale Shopping Center. There is free 2 hour parking on 37th Ave, a small parking lot behind our building, and some parking on El Camino Real and the neighborhood streets. We have a security system downstairs. So when you arrive for your session, please, find “BRAINature” in the list of names and press “CALL” button to reach us.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="content">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                    <div class="banner">
-                        <a href="" >
-                            <img src="assets/css/img/neuromovement/pic3.jpg"  alt="BRAINature - Anat Baniel Method (ABM) NeuroMovement Studio in San Mateo" />
-                        </a>
-                        <div class="banner-text-single">
-                            <br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="content">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                    <div class="highlight-section blue">
-                        <div class="highlight-section-text center">
-                            <div class="pure-g">
-                                <div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
-                                    <p>Would like to give NeuroMovement a try?</p>
-                                    <!--<div class="phone-list">-->
-                                        <ul class="phone-list">
-                                            <li>650.703.2010 (Olga)</li>
-                                            <li>650.576.3650 (Mark)</li>
-                                        </ul>
-                                    <!--</div>-->
-                                </div>
-                            </div>
-
-                            <a class="pure-button action-button-white" href="sign_up.html">CONSULT FOR FREE</a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
+    </section>
+</main>
