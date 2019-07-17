@@ -11,7 +11,7 @@ intensives:
         call: SIGN UP
         link: https://www.wellnessliving.com/rs/appointment-start.html?id_class_tab=3&k_business=254977&k_service=91442
     details:
-         - title: Why Intensive?
+         - title: Learn more
            action:
              link: https://www.wellnessliving.com/rs/appointment-start.html?id_class_tab=3&k_business=254977&k_service=91442
          - title: FREE Consultation
@@ -79,6 +79,7 @@ gift:
         </article>
         <article class="main-section-content">
             <h1>{{page.intensives.details[0].title}}</h1>
+            <!--<p>{{page.intensives.details[0].subtitle}}</p>-->
             {% include newsletter-form.html %}
             <h1>{{page.intensives.details[1].title}}</h1>
             <a href="{{page.intensives.details[1].action.link}}" class="button sign-up-button">{{page.intensives.details[1].action.call}}</a>
@@ -139,6 +140,7 @@ gift:
                     <!--</select>-->
                 <!--</label>-->
             <!--</div>-->
+            <br>
             <a class="button sign-up-button" href="{{page.gift.action.link}}">{{page.gift.action.call}}</a>
         </article>
     </section>
