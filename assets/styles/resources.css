@@ -1,0 +1,209 @@
+.content-wrapper main.resources .section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #4EADC2 url("../images/web_assets_desktop/resources/banner.jpg");
+    min-height: 319px;
+}
+
+.content-wrapper main.resources .section-1 .news-letter-form,
+.content-wrapper main.resources .section-1 .custom-select {
+    width: 100%;
+    max-width: 540px;
+}
+
+.content-wrapper main.resources .section-1 > div {
+    width: 100%;
+}
+
+.content-wrapper main.resources .section-1 .news-letter-form button {
+    background: #7DA444 url("../images/web_assets_desktop/resources/search_icon.svg") no-repeat center center;
+}
+
+
+.content-wrapper main.resources .section-1 h1 {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: left;
+    color: #684D3A;
+    margin-bottom: 10px;
+}
+
+.content-wrapper main.resources .section-2 {
+    background-color: #4EADC2;
+    flex-direction: row-reverse;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 287px;
+}
+
+.content-wrapper main.resources .section-2 .main-section-text {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-wrapper main.resources .section-2 .main-section-text a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 30px;
+    color: #fff;
+}
+
+
+.content-wrapper main.resources .section-2 .main-section-content {
+    background: url("../images/web_assets_desktop/resources/PC290145.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.content-wrapper main.resources .section-2 .main-section-text {
+    color: white;
+}
+
+.content-wrapper main.resources .section-resource {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.content-wrapper main.resources .section-resource > a h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    line-height: 30px;
+    text-align: left;
+}
+
+.content-wrapper main.resources .section-resource .section-resource-row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.content-wrapper main.resources .section-resource .section-resource-row .resource-item {
+    display: flex;
+    width: 32%;
+    min-width: 340px;
+    margin: 5px;
+}
+
+.content-wrapper main.resources .section-resource .section-resource-row .resource-item .resource-item-image {
+    min-height: 112px;
+    min-width: 112px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.content-wrapper main.resources .section-resource .section-resource-row .resource-item .resource-item-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.content-wrapper main.resources .section-resource .section-resource-row .resource-item .resource-item-body h4,
+.content-wrapper main.resources .section-resource .section-resource-row .resource-item .resource-item-body p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.content-wrapper main.resources .section-resource:nth-child(3n) {
+    background-color: #F8F8F0;
+    color: #684E3A;
+}
+
+.content-wrapper main.resources .section-resource:nth-child(3n+1) {
+    background-color: #6D764E;
+    color: #FFFFFF;
+}
+
+.content-wrapper main.resources .section-resource:nth-child(3n+2) {
+    background-color: #4EADC2;
+    color: #FFFFFF;
+}
+
+.content-wrapper main.resources .section-resource:nth-child(3n) a {
+    color: #7DA444;
+}
+
+.content-wrapper main.resources .section-resource:nth-child(3n+1) a {
+    color: #FF9F2E;
+}
+
+.content-wrapper main.resources .section-resource:nth-child(3n+2) a {
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper main.resources .section-1 .news-letter-form,
+    .content-wrapper main.resources .section-1 .custom-select {
+        max-width: 100%;
+    }
+
+    .content-wrapper main.resources .section-1 {
+        background: #4EADC2 url("../images/web_assets_mobile/resources/banner.jpg");
+        background-size: cover;
+    }
+
+    .content-wrapper main.resources .section-2 {
+        padding: 0 25px;
+        box-sizing: border-box;
+    }
+
+    .content-wrapper main.resources .section-2 p {
+        margin: 0;
+    }
+
+    .content-wrapper main.resources .section-2 .main-section-content {
+        display: none;
+    }
+
+    .content-wrapper main.resources .section-resource .section-resource-row {
+        flex-direction: column;
+    }
+
+    .content-wrapper main.resources .section-resource .section-resource-row .resource-item {
+        width: auto;
+        margin: 0;
+    }
+
+    .content-wrapper main.resources .section-resource .section-resource-row .resource-item:first-of-type {
+        margin: 0 0 25px 0;
+    }
+
+    .content-wrapper main.resources .section-resource .section-resource-row .resource-item:last-of-type {
+        margin: 25px 0 0 0;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .content-wrapper main.resources .section-resource .section-resource-row .resource-item {
+        min-width: 100%;
+    }
+
+    .content-wrapper main.resources .section-resource .section-resource-row .resource-item .resource-item-body p,
+    .content-wrapper main.resources .section-resource .section-resource-row .resource-item .resource-item-body h4 {
+        font-size: 14px;
+    }
+}

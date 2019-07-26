@@ -29,7 +29,7 @@
                 <a class="header-nav-item" href="high_performers.html">HIGH PERFORMERS</a>
                 <a class="header-nav-item" href="our_stories.html">OUR STORIES</a>
                 <a class="header-nav-item active" href="location.html">LOCATION</a>
-                <a class="header-nav-item">RESOURCES</a>
+                <a class="header-nav-item" href="resources.html">RESOURCES</a>
             </nav>
             <!--            <div class="header-social">-->
             <!--                <a href="#" class="footer-social-item">-->
@@ -59,7 +59,8 @@
             <!--                </a>-->
             <!--            </div>-->
             <div class="header-info">
-                ABM NeuroMovement® Practitioners | San Mateo, CA | 650.703.2010 (Olga) | 650.576.3650 (Mark)
+                ABM NeuroMovement® Practitioners | San Mateo, CA | <a class="phone-number" href="tel:+6507032010">650.703.2010</a> (Olga) |
+                <a class="phone-number" href="tel:+6505763650">650.576.3650</a> (Mark)
             </div>
         </div>
         <a href="./signup.html">
@@ -75,11 +76,14 @@
                 <span>BRAINature</span>
                 <span>3-West 37th Avenue, Suite 23</span>
                 <span>San Mateo, CA 94403</span>
-                <span><span class="icon-phone"></span><a href="tel:+6507032010">650.703.2010</a> (Olga)</span>
-                <span><span class="icon-phone"></span><a href="tel:+6505763650">650.576.3650</a> (Mark)</span>
+                <span><span class="icon-phone"></span><a class="phone-number" href="tel:+6507032010">650.703.2010</a> (Olga)</span>
+                <span><span class="icon-phone"></span><a class="phone-number" href="tel:+6505763650">650.576.3650</a> (Mark)</span>
                 <a href="mailto:mail@mail.com"><span class="icon-email"></span>EMAIL US</a>
             </div>
-            <a href="https://www.google.com/maps?ll=37.53423,-122.29473&z=14&t=m&hl=uk-UA&gl=US&mapclient=embed&cid=17046154520965261096" target="_blank"><div class="main-banner-map"></div></a>
+            <a href="https://www.google.com/maps?ll=37.53423,-122.29473&z=14&t=m&hl=uk-UA&gl=US&mapclient=embed&cid=17046154520965261096"
+               target="_blank">
+                <div class="main-banner-map"></div>
+            </a>
         </section>
         <section class="main-section section-1">
             <div class="main-section-content">
@@ -87,7 +91,11 @@
             <article class="main-section-text">
                 <h1>Additional Information</h1>
                 <p>
-                    Our studio is at the corner of El Camino Real & 37th Ave, a few blocks from the Hillsdale Shopping Center. There is free 2 hour parking on 37th Ave, a small parking lot behind our building, and some parking on El Camino Real and the neighborhood streets. We have a security system downstairs. So when you arrive for your session, please, find “BRAINature” in the list of names and press “CALL” button to reach us.
+                    Our studio is at the corner of El Camino Real & 37th Ave, a few blocks from the Hillsdale Shopping
+                    Center. There is free 2 hour parking on 37th Ave, a small parking lot behind our building, and some
+                    parking on El Camino Real and the neighborhood streets. We have a security system downstairs. So
+                    when you arrive for your session, please, find “BRAINature” in the list of names and press “CALL”
+                    button to reach us.
                 </p>
             </article>
         </section>
@@ -97,8 +105,8 @@
                     <p>Would like to give NeuroMovement a try?</p>
                 </div>
                 <div class="main-section-content">
-                    <p><span class="icon-phone"></span>Call 650.703.2010 (Olga)</p>
-                    <p> 650.576.3650 (Mark)</p>
+                    <p><span class="icon-phone"></span><a class="phone-number" href="tel:+6507032010">650.703.2010</a> (Olga)</p>
+                    <p><a class="phone-number" href="tel:+6505763650">650.576.3650</a> (Mark)</p>
                     <p>or</p>
                     <a class="button">CONSULT FOR FREE</a>
                 </div>
@@ -159,12 +167,21 @@
         <div class="footer-info">
             <div>
                 <p>3-West 37-th Avenue, Suite 23 San Mateo, CA 94403</p>
-                <p class="footer-info-email-us">650.576.3650 | <a href="mailto:mail@mail.com">Email us</a></p>
+                <p class="footer-info-email-us"><a class="phone-number" href="tel:+6505763650">650.576.3650</a> | <a href="mailto:mail@mail.com">Email us</a></p>
             </div>
             <p><span>&#9400;</span> 2019 BRAINature</p>
         </div>
     </footer>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h1>Thank You</h1>
+            <p>for your interest in BRAINature. You are now subscribed to our newsletter and will receive the most
+                interesting NeuroMovement insights.</p>
+            <div id="modalButton" class="modal-button"></div>
+        </div>
+    </div>
 </div>
 <script src="scripts/script.js"></script>
+<script src="scripts/modal.js"></script>
 </body>
 </html>

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../assets/styles/style.css">
-    <link rel="stylesheet" href="../assets/styles/home.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/home.css">
     <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800'
           rel='stylesheet' type='text/css'>
     <title>BRAINature | ABM NeuroMovement Practitioners studio in San Mateo, CA</title>
@@ -16,7 +16,7 @@
         <div id="menu-button" class="header-menu">
         </div>
         <a class="header-logo-ref" href="./index.html">
-            <div class="header-logo">
+            <div id="headerLogo" class="header-logo">
                 <div class="logo"></div>
                 <div class="logo-title">SAN MATEO, CA</div>
             </div>
@@ -29,7 +29,7 @@
                 <a class="header-nav-item" href="high_performers.html">HIGH PERFORMERS</a>
                 <a class="header-nav-item" href="our_stories.html">OUR STORIES</a>
                 <a class="header-nav-item" href="location.html">LOCATION</a>
-                <a class="header-nav-item">RESOURCES</a>
+                <a class="header-nav-item" href="resources.html">RESOURCES</a>
             </nav>
             <!--            <div class="header-social">-->
             <!--                <a href="#" class="footer-social-item">-->
@@ -59,7 +59,9 @@
             <!--                </a>-->
             <!--            </div>-->
             <div class="header-info">
-                ABM NeuroMovement® Practitioners | San Mateo, CA | 650.703.2010 (Olga) | 650.576.3650 (Mark)
+                ABM NeuroMovement® Practitioners | San Mateo, CA | <a class="phone-number" href="tel:+6507032010">650.703.2010</a>
+                (Olga) |
+                <a class="phone-number" href="tel:+6505763650">650.576.3650</a> (Mark)
             </div>
         </div>
         <a href="./signup.html">
@@ -243,13 +245,23 @@
         <div class="footer-info">
             <div>
                 <p>3-West 37-th Avenue, Suite 23 San Mateo, CA 94403</p>
-                <p class="footer-info-email-us">650.576.3650 | <a href="mailto:mail@mail.com">Email us</a></p>
+                <p class="footer-info-email-us"><a class="phone-number" href="tel:+6505763650">650.576.3650</a> | <a
+                        href="mailto:mail@mail.com">Email us</a></p>
             </div>
             <p><span>&#9400;</span> 2019 BRAINature</p>
         </div>
     </footer>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h1>Thank You</h1>
+            <p>for your interest in BRAINature. You are now subscribed to our newsletter and will receive the most
+                interesting NeuroMovement insights.</p>
+            <div id="modalButton" class="modal-button"></div>
+        </div>
+    </div>
 </div>
 <script src="scripts/script.js"></script>
 <script src="scripts/slider.js"></script>
+<script src="scripts/modal.js"></script>
 </body>
 </html>

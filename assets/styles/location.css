@@ -15,6 +15,10 @@
     flex-grow: 1;
 }
 
+.content-wrapper main.location .main-banner > div a.phone-number{
+    color: #684D3A;
+}
+
 .content-wrapper main.location .main-banner .main-banner-map{
     height: 100%;
 }
@@ -72,6 +76,10 @@
     margin-right: 10px;
     display: flex;
     align-items: center;
+}
+
+.content-wrapper main.location .section-2 .main-section-content a.phone-number{
+    color: white;
 }
 
 .content-wrapper main.location .section-2 > div p .icon-phone{
