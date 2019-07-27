@@ -203,7 +203,7 @@ label.custom-select {
 }
 
 .content-wrapper header .header-logo .logo {
-    width: 282px;
+    width: 285px;
     height: 58px;
     background-image: url("../images/web_assets_desktop/home/logo.svg");
     background-size: cover;
@@ -646,6 +646,8 @@ label.custom-select {
         width: 192px;
         height: 24px;
         background-image: url("../images/web_assets_mobile/home/brainature_hor_logo.svg");
+        background-size: contain;
+
     }
 
     .content-wrapper header .header-logo .logo-title {

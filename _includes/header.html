@@ -18,7 +18,7 @@
                     {% else %}
                         {% assign select_tag = '' %}
                     {% endif %}
-                    <a class="header-nav-item{{ select_tag }}" href="{{ p.url | prepend:site.baseurl}}">{{ p.title }}</a>
+                    <a class="header-nav-item{{ select_tag }}" href="{{ p.url | prepend:site.baseurl}}">{{ p.title | upcase }}</a>
                 {% endunless %}
             {% endfor %}
         </nav>

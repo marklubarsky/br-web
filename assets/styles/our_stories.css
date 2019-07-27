@@ -29,13 +29,13 @@
     display: none;
 }
 
-.content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo:first-of-type{
+.content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo.mark{
     background: url("../images/web_assets_desktop/our_stories/mark_avatar.jpg") center;
     background-size: cover;
     flex-grow: 1;
 }
 
-.content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo:last-of-type{
+.content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo.olga{
     background: url("../images/web_assets_desktop/our_stories/olga_avatar.jpg") center;
     background-size: cover;
     flex-grow: 1;
@@ -73,17 +73,17 @@
         padding: 40px 25px;
     }
 
-    .content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text:first-of-type{
-        background-color: #4EADC2;
+    .content-wrapper main.our-stories .section-1 .main-section-articles #mark.main-section-text{
+        background-color: #4EADC2 !important;
         color: white;
     }
 
-    .content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text:first-of-type .mobile-photo{
+    .content-wrapper main.our-stories .section-1 .main-section-articles #mark.main-section-text .mobile-photo{
         background: url("../images/web_assets_mobile/our_stories/mark_avatar.png");
         background-size: cover;
     }
 
-    .content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text:last-of-type .mobile-photo{
+    .content-wrapper main.our-stories .section-1 .main-section-articles #olga.main-section-text .mobile-photo{
         background: url("../images/web_assets_mobile/our_stories/olga_avatar.png");
         background-size: cover;
     }
