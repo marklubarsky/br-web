@@ -882,6 +882,11 @@ label.custom-select {
     .content-wrapper main .main-section {
         padding: 40px 12px;
     }
+
+    .content-wrapper .modal-content {
+        width: unset;
+        max-width: 80%;
+    }
 }
 
 @media (max-width: 375px) {
