@@ -68,6 +68,14 @@
 {{ content }}
 
 {% include footer.html %}
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h1>Thank You</h1>
+            <p>for your interest in BRAINature. You are now subscribed to our newsletter and will receive the most
+                interesting NeuroMovement insights.</p>
+            <div id="modalButton" class="modal-button"></div>
+        </div>
+    </div>
 
 
 </div>
@@ -75,7 +83,9 @@
 
 
 <script src="assets/scripts/script.js"></script>
-<script src="assets/scripts/slider.js"></script>
+{% if page.include_testimonials == true %}
+    <script src="assets/scripts/slider.js"></script>
+{% endif %}
 <script src="assets/scripts/modal.js"></script>
 
 </body>

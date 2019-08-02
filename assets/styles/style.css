@@ -891,6 +891,7 @@ label.custom-select {
     .content-wrapper header .header-logo .logo {
         width: 154px;
         height: 19px;
+        background-size: cover;
     }
 
     .content-wrapper header .button {
