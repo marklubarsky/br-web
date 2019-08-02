@@ -12,7 +12,7 @@
 
 .content-wrapper main.high-performers .main-banner-section{
     color: white;
-    width: 60%;
+    width: 75%;
     position: absolute;
     top: 180px;
     z-index: 2;
@@ -75,8 +75,19 @@
 @media (max-width: 1200px) {
     .content-wrapper main.high-performers .main-banner-section{
         padding-left: 140px;
-        width: 80%;
+        width: 90%;
         top: 130px;
+    }
+}
+
+
+@media (max-width: 1030px) {
+    .content-wrapper main.high-performers .main-banner > div {
+        margin-left: 25px;
+    }
+
+    .content-wrapper main.high-performers .main-banner-section{
+        padding-left: 25px;
     }
 }
 
