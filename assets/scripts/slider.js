@@ -5,7 +5,7 @@ slideNavigation[0].addEventListener('click', prevSlide);
 slideNavigation[1].addEventListener('click', nextSlide);
 
 function nextSlide() {
-    for (let i=0; i<slider.length; i++){
+    for (var i=0; i<slider.length; i++){
 
         if(slider[i].classList.contains('active')){
             slider[i].classList.toggle('active');
@@ -20,7 +20,7 @@ function nextSlide() {
 }
 
 function prevSlide() {
-    for (let i=0; i<slider.length; i++){
+    for (var i=0; i<slider.length; i++){
 
         if(slider[i].classList.contains('active')){
             slider[i].classList.toggle('active');

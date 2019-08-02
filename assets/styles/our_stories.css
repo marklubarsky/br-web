@@ -35,7 +35,7 @@
     flex-grow: 1;
 }
 
-.content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo.olga {
+.content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo.olga{
     background: url("../images/web_assets_desktop/our_stories/olga_avatar.jpg") center;
     background-size: cover;
     flex-grow: 1;
@@ -74,7 +74,7 @@
     }
 
     .content-wrapper main.our-stories .section-1 .main-section-articles #mark.main-section-text{
-        background-color: #4EADC2;
+        background-color: #4EADC2 !important;
         color: white;
     }
 
