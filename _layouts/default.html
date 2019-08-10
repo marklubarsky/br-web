@@ -63,11 +63,11 @@
 
 <div class="content-wrapper">
 
-{% include header.html %}
+    {% include header.html %}
 
-{{ content }}
+    {{ content }}
 
-{% include footer.html %}
+    {% include footer.html %}
     <div id="modal" class="modal">
         <div class="modal-content">
             <h1>Thank You</h1>
@@ -82,6 +82,7 @@
 
 
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="assets/scripts/script.js"></script>
 {% if page.include_testimonials == true %}
     <script src="assets/scripts/slider.js"></script>
