@@ -164,6 +164,7 @@
     font-size: 16px;
     line-height: 24px;
     text-align: left;
+    width: 100%;
 }
 
 .content-wrapper main.article .section-resource .section-resource-row .resource-item .resource-item-body h4,

@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    padding-top: 1px;
+}
+
 .icon-phone {
     display: inline-block;
     background: url("../images/web_assets_mobile/location/call_icon.svg");
@@ -155,13 +159,12 @@ label.custom-select {
     content: none;
 }
 
-
 /*Global*/
 
 .content-wrapper {
     background-color: #ffffff;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 114px auto 0 auto;
 }
 
 /*Global - Header*/
@@ -282,10 +285,6 @@ label.custom-select {
 }
 
 /*Global - Main*/
-.content-wrapper main {
-    margin-top: 114px;
-}
-
 .content-wrapper main .main-banner {
     display: flex;
     height: 319px;
@@ -438,6 +437,14 @@ label.custom-select {
     justify-content: space-between;
     width: 100%;
     margin: auto;
+}
+
+.content-wrapper main .section-text-button > div a {
+    white-space: nowrap;
+}
+
+.content-wrapper main .section-text-button .main-section-text {
+    max-width: 100%;
 }
 
 .content-wrapper main .section-text-button > div p {
@@ -616,6 +623,7 @@ label.custom-select {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     line-height: 30px;
+    width: 100%;
     text-align: center;
 }
 
@@ -662,7 +670,7 @@ label.custom-select {
         margin-top: 5px;
     }
 
-    .content-wrapper main {
+    .content-wrapper {
         margin-top: 70px;
     }
 
@@ -741,7 +749,6 @@ label.custom-select {
     .content-wrapper header .header-mid .header-social .footer-social-item {
         margin: 0 5px;
     }
-
 
     .content-wrapper header .header-info {
         font-size: 16px;
@@ -930,5 +937,33 @@ label.custom-select {
 @media (min-width: 1200px) {
     .content-wrapper header .header-logo .logo-title {
         display: none;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+    .content-wrapper main .main-banner h1 {
+        padding-top: 25px;
+    }
+
+    .content-wrapper footer .footer-info {
+        width: 30%;
+    }
+
+    p {
+        white-space: normal;
+        width: 100%;
+    }
+
+    .content-wrapper main.home-page .section-3 {
+        overflow: hidden;
+    }
+
+    .content-wrapper main.location .section-2 .main-section-text {
+        width: 100%;
+    }
+
+    .content-wrapper main.location .section-2 .main-section-text p {
+        width: 100%;
     }
 }
