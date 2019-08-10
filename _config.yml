@@ -20,8 +20,8 @@ phones:
   olga: 650.703.2010
   mark: 650.576.3650
 description: Everybody can learn how to move without pain and limitations
-baseurl: /br-web/ # the subpath of your site, e.g. /blog
-url: http://www.movebetterpilates.com
+baseurl: / # the subpath of your site, e.g. /blog
+url: http://www.brainature.com
 
 yelp: http://yelp.com/biz/move-better-now-san-mateo-2?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge
 
