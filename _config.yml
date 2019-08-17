@@ -23,7 +23,11 @@ description: Everybody can learn how to move without pain and limitations
 baseurl: / # the subpath of your site, e.g. /blog
 url: http://www.brainature.com
 
-yelp: http://yelp.com/biz/move-better-now-san-mateo-2?utm_medium=badge_star_rating_reviews&amp;utm_source=biz_review_badge
+facebook: https://www.facebook.com/BRAINature
+twitter: https://twitter.com/brainature
+instagram: https://www.instagram.com/brainature
+linkedin: https://www.linkedin.com/company/19156815/admin/
+yelp: https://www.yelp.com/biz/move-better-now-pilates-and-feldenkrais-san-mateo-4
 
 # Build settings
 markdown: kramdown
