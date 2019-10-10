@@ -501,7 +501,7 @@ label.custom-select {
     padding: 40px 50px;
     justify-content: space-between;
     background-color: #684E3A;
-    min-height: 216px;
+    /* min-height: 216px; */
 }
 
 .content-wrapper footer .footer-nav {

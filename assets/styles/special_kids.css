@@ -103,7 +103,7 @@
     }
 
     .content-wrapper main.special-kids .section-1{
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 0;
     }
 
