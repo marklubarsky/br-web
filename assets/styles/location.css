@@ -103,8 +103,14 @@
         min-height: 463px;
     }
 
-    .content-wrapper main.location .main-banner > div{
-        z-index: 2;
+    .content-wrapper main.location .main-banner .main-banner-map{
+        min-height: 768px;
+        min-width: 768px;
+        z-index: 1;
+    }
+
+    .content-wrapper main.location .main-banner > div a{
+        z-index: 3;
     }
 
     .content-wrapper main.location .main-banner > div span{
@@ -114,7 +120,7 @@
     .content-wrapper main.location .main-banner > a{
         position: absolute;
         height: 100%;
-        z-index: 1;
+        z-index: 2;
     }
 
     .content-wrapper main.location .main-banner > div a{
