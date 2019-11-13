@@ -101,10 +101,10 @@ gift:
             <h1 class="article-title">{{page.maintenance.title}}</h1>
             {% for maintenance in page.maintenance.list %}
                 <p>
-                    {{maintenance.subtitle}}
-                    <a href="{{maintenance.action.link}}" class="button sign-up-button">{{maintenance.action.call}}</a>
+                    {{maintenance.subtitle}}                    
                 </p>
-                <br/>
+                <a href="{{maintenance.action.link}}" class="button sign-up-button">{{maintenance.action.call}}</a>
+                <br/>                
             {% endfor %}
         </article>
         <article class="main-section-content">
