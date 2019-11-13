@@ -23,6 +23,17 @@ intensives:
 
 maintenance:
     title: Maintenance Program
+    list:
+        - subtitle: Pick follow-up sessions from Move&nbsp;Better&nbsp;Now
+          action:
+            call: MOVEBETTERNOW.COM
+            link: http://www.movebetterpilates.com
+
+        - subtitle: Setup online sessions
+          action:
+            call: (650) 703-2010            
+    
+
     subtitle: Pick follow-up sessions from Move&nbsp;Better&nbsp;Now
     action:
         call: MOVEBETTERNOW.COM
@@ -88,10 +99,12 @@ gift:
     <section class="main-section section-2">
         <article class="main-section-text">
             <h1 class="article-title">{{page.maintenance.title}}</h1>
-            <p>
-                {{page.maintenance.subtitle}}
-            </p>
-            <a href="{{page.maintenance.action.link}}" class="button sign-up-button">{{page.maintenance.action.call}}</a>
+            {% for maintenance in page.maintenance.list %}
+                <p>
+                    {{maintenance.subtitle}}
+                </p>
+                <a href="{{maintenance.action.link}}" class="button sign-up-button">{{maintenance.action.call}}</a>
+            {% endfor %}
         </article>
         <article class="main-section-content">
             <h1 class="article-title">{{page.prepare.title}}</h1>
