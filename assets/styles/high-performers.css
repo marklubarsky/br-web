@@ -1,5 +1,5 @@
 .content-wrapper main.high-performers .main-banner {
-    background: url("../images/web_assets_desktop/high_performers/banner.jpg");
+    background: url("../images/web_assets_desktop/high-performers/banner.jpg");
     background-size: cover;
     color: white;
     position: relative;
@@ -44,7 +44,7 @@
 }
 
 .content-wrapper main.high-performers .section-1 .main-section-content {
-    background: url("../images/web_assets_desktop/high_performers/pic1.jpg");
+    background: url("../images/web_assets_desktop/high-performers/pic1.jpg");
     background-size: cover;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .content-wrapper main.high-performers .section-contact .section-contact-avatar{
-    background: url("../images/web_assets_desktop/special_kids/mark_avatar.png");
+    background: url("../images/web_assets_desktop/special-kids/mark_avatar.png");
     background-size: cover;
 }
 
@@ -93,7 +93,7 @@
 
 @media (max-width: 768px) {
     .content-wrapper main.high-performers .main-banner {
-        background: url("../images/web_assets_mobile/high_performers/banner.jpg") no-repeat top;
+        background: url("../images/web_assets_mobile/high-performers/banner.jpg") no-repeat top;
         background-size: cover;
     }
 
@@ -127,12 +127,12 @@
 
     .content-wrapper main.high-performers .section-1 .main-section-text{
         margin-top: 25px;
-        background: url("../images/web_assets_mobile/high_performers/pic2.jpg");
+        background: url("../images/web_assets_mobile/high-performers/pic2.jpg");
         background-size: cover;
     }
 
     .content-wrapper main.high-performers .section-1 .main-section-content {
-        background: url("../images/web_assets_mobile/high_performers/pic1.jpg");
+        background: url("../images/web_assets_mobile/high-performers/pic1.jpg");
         min-height: 375px;
         background-size: cover;
     }

@@ -112,19 +112,19 @@
 }
 
 .banner.special_kids {
-    background: url('img/desktop/special_kids/banner.jpg') no-repeat;
+    background: url('img/desktop/special-kids/banner.jpg') no-repeat;
     background-size: cover;
     color: #FFFFFF;
 }
 
 .banner.high_performers {
-    background: url('img/desktop/high_performers/banner.jpg') no-repeat;
+    background: url('img/desktop/high-performers/banner.jpg') no-repeat;
     background-size: cover;
     color: #FFFFFF;
 }
 
 .banner.our_stories {
-    background: url('img/desktop/our_stories/banner.jpg') no-repeat;
+    background: url('img/desktop/our-stories/banner.jpg') no-repeat;
     background-size: cover;
     color: #FFFFFF;
 

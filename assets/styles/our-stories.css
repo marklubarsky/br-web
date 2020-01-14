@@ -1,5 +1,5 @@
 .content-wrapper main.our-stories .main-banner {
-    background: url("../images/web_assets_desktop/our_stories/banner.jpg");
+    background: url("../images/web_assets_desktop/our-stories/banner.jpg");
     background-size: cover;
 }
 
@@ -30,13 +30,13 @@
 }
 
 .content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo.mark{
-    background: url("../images/web_assets_desktop/our_stories/mark_avatar.jpg") center;
+    background: url("../images/web_assets_desktop/our-stories/mark_avatar.jpg") center;
     background-size: cover;
     flex-grow: 1;
 }
 
 .content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo.olga{
-    background: url("../images/web_assets_desktop/our_stories/olga_avatar.jpg") center;
+    background: url("../images/web_assets_desktop/our-stories/olga_avatar.jpg") center;
     background-size: cover;
     flex-grow: 1;
 }
@@ -51,7 +51,7 @@
 
 @media (max-width: 768px) {
     .content-wrapper main.our-stories .main-banner {
-        background: url("../images/web_assets_mobile/our_stories/banner.jpg");
+        background: url("../images/web_assets_mobile/our-stories/banner.jpg");
         background-size: cover;
     }
     .content-wrapper main.our-stories .main-banner h1{
@@ -79,12 +79,12 @@
     }
 
     .content-wrapper main.our-stories .section-1 .main-section-articles #mark.main-section-text .mobile-photo{
-        background: url("../images/web_assets_mobile/our_stories/mark_avatar.png");
+        background: url("../images/web_assets_mobile/our-stories/mark_avatar.png");
         background-size: cover;
     }
 
     .content-wrapper main.our-stories .section-1 .main-section-articles #olga.main-section-text .mobile-photo{
-        background: url("../images/web_assets_mobile/our_stories/olga_avatar.png");
+        background: url("../images/web_assets_mobile/our-stories/olga_avatar.png");
         background-size: cover;
     }
 }

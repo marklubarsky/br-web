@@ -21,7 +21,7 @@ phones:
   mark: 650.576.3650
 description: Everybody can learn how to move without pain and limitations
 baseurl: / # the subpath of your site, e.g. /blog
-url: http://www.brainature.com
+url: https://brainature.com
 
 facebook: https://www.facebook.com/BRAINature
 twitter: https://twitter.com/brainature

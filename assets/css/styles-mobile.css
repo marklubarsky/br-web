@@ -98,17 +98,17 @@
 }
 
 .banner.special_kids {
-    background: url('img/special_kids/banner.jpg') no-repeat;
+    background: url('img/special-kids/banner.jpg') no-repeat;
     background-size: contain;
 }
 
 .banner.high_performers {
-    background: url('img/high_performers/banner.jpg') no-repeat;
+    background: url('img/high-performers/banner.jpg') no-repeat;
     background-size: contain;
 }
 
 .banner.our_stories {
-    background: url('img/our_stories/banner.jpg') no-repeat;
+    background: url('img/our-stories/banner.jpg') no-repeat;
     background-size: contain;
 }
 
