@@ -1,4 +1,3 @@
 User-agent: *
 Disallow: /assets/images/MBN-Client-Intake-Packet.pdf
 Disallow: /assets/images/PAMF-BN-and-MBN-with-Olga-and-Mark-Lubarsky.pdf
-Disallow: /privacy.html
