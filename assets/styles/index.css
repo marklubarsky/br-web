@@ -71,6 +71,16 @@
     background-color: #3689d2;
 }
 
+.content-wrapper main.home-page .news-letter-social .social-item.linkedin {
+    margin-left: 21px;
+    background-color: #40A2F5;
+}
+
+.content-wrapper main.home-page .news-letter-social .social-item.linkedin:hover{
+    cursor: pointer;
+    background-color: #3689d2;
+}
+
 .content-wrapper main.home-page .section-2{
     background: #6e764f;
 }

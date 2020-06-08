@@ -96,6 +96,12 @@ a.button:hover {
     color: #4EADC2;
 }
 
+.special a.button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #96809B;
+}
+
 a.supporting-research {
     margin: 25px 0 0 0;
     box-sizing: border-box;
@@ -163,7 +169,7 @@ label.custom-select {
 
 .content-wrapper {
     background-color: #ffffff;
-    max-width: 1440px;
+    /*max-width: 1440px;*/
     margin: 114px auto 0 auto;
 }
 
@@ -175,7 +181,7 @@ label.custom-select {
     top: 0;
     background-color: #FFFFFF;
     width: 100%;
-    max-width: 1440px;
+    /*max-width: 1440px;*/
     box-sizing: border-box;
     z-index: 99;
     flex-wrap: nowrap;
@@ -331,7 +337,9 @@ label.custom-select {
     justify-content: space-between;
 }
 
-.content-wrapper main .main-section article h1 {
+.content-wrapper main .main-section article h1,
+.content-wrapper main .main-section article h2,
+.content-wrapper main .main-section article h3 {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -451,6 +459,10 @@ label.custom-select {
     color: #FFFFFF;
 }
 
+.content-wrapper main .section-text-button.special {
+    background-color: #96809B;
+}
+
 .content-wrapper main .section-text-button > div button {
     width: 170px;
     height: 42px;
@@ -498,11 +510,21 @@ label.custom-select {
 
 .content-wrapper footer {
     display: flex;
+    flex-direction: column;
     padding: 40px 50px;
     justify-content: space-between;
     background-color: #684E3A;
     /* min-height: 216px; */
 }
+
+.content-wrapper .footer-1 {
+    display: flex;
+}
+
+.content-wrapper .footer-2 {
+    display: flex;
+}
+
 
 .content-wrapper footer .footer-nav {
     display: flex;

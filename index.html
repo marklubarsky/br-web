@@ -12,7 +12,7 @@ banner:
     call: LEARN MORE
     link: neuromovement.html
 intro:
-    text: Anat Baniel Method® (ABM) NeuroMovement® is a method of retraining one's movement and thinking patterns. “Movement is the language of the brain” is the foundational concept of the ABMNM, coined by the method’s founder, Anat Baniel.
+    text:  Exercise your brain's ability to organize movement without pain, limitations, or unnecessary efforts. <br> <br> Discover new ways to move and think to achieve agility, freedom, and resilience. <br> <br> We work with children, adults, families, and groups.
 details:
     title: "This system has its roots in the work of Dr. Moshe Feldenkrais (aka Feldenkrais Method), with whom Anat Baniel studied for many years before expanding the method into what is now known as NeuroMovement®. Anat Baniel’s work with thousands of children and adults gave her many experiences from which she concluded how the brain works. Anat was using principles of brain plasticity many years before brain science caught up and began validating her work. Anat is working closely with other leading renown experts in Movement Science, Neurology and Brain plasticity, including:"
     list:
@@ -30,6 +30,12 @@ highlight:
     action:
         call: LEARN MORE
         link: neuromovement.html
+corporate_highlight:
+    title: "WORKPLACE WELLNESS PROGRAMS available"
+    action:
+        call: DOWNLOAD PRESENTATION
+        link: https://brainature.com/assets/images/Wellness-Program-BRAINature-and-Move-Better-Now-with-Olga-and-Mark-Lubarsky.pdf
+
 ---
 
 <!--<div id="banner"></div>-->
@@ -47,11 +53,12 @@ highlight:
         {% include testimonials.html %}
 
         <section class="main-section section-1">
-            <div class="main-section-text">
+            <article class="main-section-text">
+                <h2>Organize your movement</h2>
                 <p>
                     {{ page.intro.text }}
                 </p>
-            </div>
+            </article>
             <div class="main-section-content">
                 {% include newsletter-form.html %}
 
@@ -60,15 +67,25 @@ highlight:
                     <a class="social-item facebook" href="{{site.facebook}}">
                         <img src="assets/images/web_assets_desktop/home/facebook_f.svg" alt="facebook">
                     </a>
-                    <a class="social-item twitter" href="{{site.twitter}}">
-                        <img src="assets/images/web_assets_desktop/home/twitter_t.svg" alt="twitter">
+                    <a class="social-item linkedin" href="{{site.linkedin}}">
+                        <img src="assets/images/web_assets_desktop/home/linkedin_l.svg" alt="linkedin">
                     </a>
                 </div>
             </div>
         </section>
 
+        <section class="main-section section-text-button special">
+            <div>
+                <div class="main-section-text">
+                    <p>{{ page.corporate_highlight.title }}</p>
+                </div>
+                <a class="button" href="{{ page.corporate_highlight.action.link }}">{{ page.corporate_highlight.action.call }}</a>
+            </div>
+        </section>
+
         <section class="main-section section-2">
-            <div class="main-section-text">
+            <article class="main-section-text">
+                <h2>Supporting Research</h2>
                 <p>
                     {{ page.details.title }}
                 </p>
@@ -77,7 +94,7 @@ highlight:
                     <li>{{ t }}</li>
                     {% endfor %}
                 </ul>
-            </div>
+            </article>
             <div class="main-section-content">
                 <div class="video">
                     <iframe title="vimeo-player"
@@ -101,6 +118,7 @@ highlight:
                 <div class="content-book-2"></div>
             </div>
         </section>
+
 
         <section class="main-section section-text-button">
             <div>

@@ -25,23 +25,17 @@ intensives:
 
 
 maintenance:
-    title: Maintenance Program
+    title: Special Programs
     list:
-        - subtitle: Pick follow-up sessions from Move&nbsp;Better&nbsp;Now
+        - subtitle: Additional Pilates & Feldenkrais Sessions
           action:
             call: MOVEBETTERNOW.COM
             link: http://www.movebetterpilates.com
 
-        - subtitle: Remote sessions available
+        - subtitle: Workplace/Corporate Wellness
           action:
-            call: Call (650) 703-2010
-            link: tel:+6507032010
-    
-
-    subtitle: Pick follow-up sessions from Move&nbsp;Better&nbsp;Now
-    action:
-        call: MOVEBETTERNOW.COM
-        link: http://www.movebetterpilates.com
+            call: DOWNLOAD PRESENTATION
+            link: assets/images/Wellness-Program-BRAINature-and-Move-Better-Now-with-Olga-and-Mark-Lubarsky.pdf
 
 prepare:
     title: Prepare for Your First Session
@@ -49,16 +43,19 @@ prepare:
         - action:
             call: Please fill out, sign and bring these forms with you
             link: assets/images/MBN-Client-Intake-Packet.pdf
+        - action:
+            call: Questions? Please call us (650) 703-2010
+            link: tel:+6507032010
 
 events:
-    title: Workshops and Events
+    title: REMOTE SESSIONS
     list:
-        - title: Introduction to ABM
-          date: DECEMBER 16, 2019
-          description: Adult $50, children (2-12) FREE
+        - title: Transformational Movement Lessons via ZOOM
+          date: By Appointment
+          description: Extended Schedule during COVID-19
           action:
-            call: EARLY-BIRD REGISTRATION
-            link: mailto:{{ site.email }}?Subject=Request%20Workshop%20Info
+            call: REQUEST REMOTE (ZOOM) SESSION
+            link: mailto:{{ site.email }}?Subject=Request%20Zoom%20Info
 
 promotion:
     title: Limited Time Only! 11/1 - 11/30
@@ -115,6 +112,7 @@ gift:
             <h1 class="article-title">{{page.prepare.title}}</h1>
             {% for a in page.prepare.list %}
                 <a href="{{a.action.link}}">{{a.action.call}}</a>
+                <br>
             {% endfor %}
         </article>
     </section>
