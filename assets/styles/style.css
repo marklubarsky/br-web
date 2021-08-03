@@ -802,6 +802,10 @@ label.custom-select {
 }
 
 @media (max-width: 768px) {
+    .content-wrapper header .header-nav .header-nav-item {
+        font-size: 18px;
+    }
+
     .content-wrapper header .button {
         min-width: 101px;
         height: 42px;
