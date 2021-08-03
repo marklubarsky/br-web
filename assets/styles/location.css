@@ -102,6 +102,10 @@
         background-size: cover;
         min-height: 463px;
     }
+    
+    .content-wrapper main.location .main-banner > div{
+        width: 100%;
+    }
 
     .content-wrapper main.location .main-banner .main-banner-map{
         min-height: 768px;
