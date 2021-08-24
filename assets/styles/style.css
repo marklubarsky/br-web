@@ -519,6 +519,7 @@ label.custom-select {
 
 .content-wrapper .footer-1 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .content-wrapper .footer-2 {
