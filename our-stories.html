@@ -12,19 +12,31 @@ stories:
     mark:
         title: Mark Lubarsky
         text:
-            - Mark’s lifelong passion is helping clients who are dealing with problems related to modern lifestyle and associated injuries and challenges. He's been a very active software engineer working for various "hot" tech companies in Silicon Valley for over 20 years. During his childhood, Mark has been a competitive international draughts (aka checkers) player in the former USSR, practicing in a sitting position for hours and hours each day. As a result of his profoundly sedentary lifestyle as well as premature birth and related illnesses, he ended up suffering from many aches, pains, struggles and limitations for years.
-            - After discovering the ABM NeuroMovement method, he was able to get rid of aches and pains that lingered from his early childhood and learned to become a higher functioning person. He was inspired to help others overcome limitations and achieve self-realization.
-            - Mark completed the ABM NeuroMovement training in 2019, re-joined Olga in their practice and continues to study with Anat Baniel to achieve a higher level of mastery in working with Children with Special Needs and High Performers.
+            - text: "Mark's passion is personal transformation through learning and helping his clients overcome problems at birth & during childhood and sedentary lifestyle & chronic pain. Mark specializes in:"
+              list:
+                - Overcoming chronic & lingering pain and limitations
+                - Children with special needs
+                - Movement and learning disorders
+                - Developmental delays, ADHD/Autism
+                - Integrating awareness-based movement with thinking and emotions
+                - Dealing with problems related to modern lifestyle and associated injuries and challenges.
+            - text: After discovering the ABM NeuroMovement method, he was able to get rid of aches and pains that lingered from his early childhood and learned to become a higher functioning person. He was inspired to help others overcome limitations and achieve self-realization.
+            - text: Mark completed the ABM NeuroMovement training in 2019, received Children Mastery certification, and continues to study with Anat Baniel.
     olga:
         title: Olga Lubarsky
         text:
-            - text: "Olga was raised in the family of a well-respected orthopedic doctor. She observed her grandmother saving injured patients on a daily basis. Olga grew passionate about helping those in pain, which brought her to this profession. Olga has been practicing the ABM NeuroMovement since 2009 and has completed all Mastery Programs:"
+            - text: "Olga is passionate about helping people to feel better. Olga is working with children and adults looking for natural and gentle ways to overcome pain and limitations, achieve higher levels of skill in sports, dance, arts, personal and professional lives. Olga's specialties and interests:"
+              list:
+                - Safe and yet engaging fitness
+                - Natural chronic pain relief
+                - Learn to move with ease (children and adults)
+            - text: Olga was raised in the family of a well-respected orthopedic doctor. She observed her grandmother saving injured patients daily. Olga grew passionate about helping those in pain, which brought her to this profession.
+            - text: "Olga has been practicing the ABM NeuroMovement since 2009 and has completed all Mastery Programs:"
               list:
                 - Children with Special Needs
                 - Vitality & Anti-aging
                 - High Performers
-            - text: Olga is working with children and adults looking for natural and gentle ways to overcome pain and limitations, achieve higher levels of skill in sports, dance, arts, personal and professional lives
-            - text: Please check out Olga's studio's website (where she also teaches Pilates) <a href="http://www.movebetternow.com">www.movebetternow.com</a>
+            - text: Olga also teaches Pilates with a focus on injury prevention and recovery, integrating it with Feldenkrais-based approaches. Please check out Olga's studio's website <a href="http://www.movebetternow.com">www.movebetternow.com</a>
 highlight:
     title: Is NeuroMovement right for you? Find out at our FREE consultation
     action:
@@ -43,28 +55,32 @@ highlight:
     </section>
     <section class="main-section section-1">
         <div class="main-section-content">
-            <div class="section-content-photo"></div>
-            <div class="section-content-photo"></div>
-        </div>
-        <div class="main-section-articles">
-            <article id="mark" class="main-section-text">
+            <div class="main-section-articles first-position">
+            <article id="mark" class="main-section-text section-content-photo">
                 <h1>{{ page.stories.mark.title }}</h1>
                 <div class="mobile-photo"></div>
                 {% for t in page.stories.mark.text %}
-                 <p>{{ t }}</p>
-                {% endfor %}
-            </article>
-
-            <article id="olga" class="main-section-text">
-                <h1>{{ page.stories.olga.title }}</h1>
-                <div class="mobile-photo"></div>
-                {% for t in page.stories.olga.text %}
                 <p>{{ t.text }}</p>
                 <ul>
                     {% for li in t.list %}
                     <li>{{ li }}</li>
                     {% endfor %}
                 </ul>
+                {% endfor %}
+            </article>
+            </div>
+        </div>
+        <div class="main-section-articles">
+            <article id="olga" class="main-section-text section-content-photo">
+                <h1>{{ page.stories.olga.title }}</h1>
+                <div class="mobile-photo"></div>
+                {% for t in page.stories.olga.text %}
+                    <p>{{ t.text }}</p>
+                    <ul>
+                        {% for li in t.list %}
+                        <li>{{ li }}</li>
+                        {% endfor %}
+                    </ul>
                 {% endfor %}
             </article>
         </div>

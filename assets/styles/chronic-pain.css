@@ -1,0 +1,181 @@
+.content-wrapper main.chronic-pain .main-banner {
+    background: url("../images/web_assets_desktop/chronic-pain/banner.jpg");
+    background-size: cover;
+}
+
+.content-wrapper main.chronic-pain .main-banner > div h1 {
+    color: #fff;
+}
+
+.content-wrapper main.chronic-pain .main-section {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.content-wrapper main.chronic-pain .main-section article h1 {
+    line-height: 36px;
+}
+
+.content-wrapper main.chronic-pain .main-section .main-section-text {
+    padding: 40px 0;
+}
+
+.content-wrapper main.chronic-pain .section-1,
+.content-wrapper main.chronic-pain .section-3 {
+    flex-direction: row-reverse;
+    background-color: #6D764E;
+}
+
+.content-wrapper main.chronic-pain .section-1 .main-section-content {
+    background: url("../images/web_assets_desktop/chronic-pain/pic1.jpg");
+    background-size: cover;
+}
+
+.content-wrapper main.chronic-pain .section-1 .main-section-text,
+.content-wrapper main.chronic-pain .section-3 .main-section-text {
+    color: white;
+}
+
+.content-wrapper main.chronic-pain .section-text-button {
+    padding: 40px 140px;
+}
+
+.content-wrapper main.chronic-pain .section-text-button .main-section-text {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.content-wrapper main.chronic-pain .section-2 {
+    background-color: #F8F8F0;
+    color: #684E3A;
+}
+
+.content-wrapper main.chronic-pain .section-2 .main-section-content {
+    background: url("../images/web_assets_desktop/chronic-pain/pic2.jpg");
+    background-size: cover;
+}
+
+.content-wrapper main.chronic-pain .section-3 .main-section-content {
+    background: url("../images/web_assets_desktop/chronic-pain/pic3.jpg");
+    background-size: cover;
+}
+
+.content-wrapper main.chronic-pain .section-4 {
+    background-color: #4EADC2;
+    color: white;
+    padding: 40px 140px;
+}
+
+.content-wrapper main.chronic-pain .section-4 .main-section-text {
+    padding: 0;
+}
+
+.content-wrapper main.chronic-pain .section-5 {
+    background-color: #F8F8F0;
+    color: #684E3A;
+}
+
+.content-wrapper main.chronic-pain .section-5 ul li {
+    color: #684E3A;
+}
+
+.content-wrapper main.chronic-pain .section-5 .main-section-content {
+    background: url("../images/web_assets_desktop/chronic-pain/pic4.jpg");
+    background-size: cover;
+}
+
+.content-wrapper main.chronic-pain .section-6 {
+    background-color: #6D764E;
+}
+
+.content-wrapper main.chronic-pain .section-6 a.button:hover{
+    color: #6D764E;
+}
+
+@media (max-width: 1030px) {
+    .content-wrapper main.chronic-pain .section-text-button,
+    .content-wrapper main.chronic-pain .section-4 {
+        padding: 40px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-wrapper main.chronic-pain .main-banner {
+        background: url("../images/web_assets_mobile/chronic-pain/banner.jpg") no-repeat top;
+        background-size: cover;
+    }
+
+    .content-wrapper main.chronic-pain .section-3 a.supporting-research{
+        margin-bottom: 25px;
+    }
+
+    .content-wrapper main.chronic-pain .main-banner > div h1 {
+        color: #684D3A;
+    }
+
+    .content-wrapper main.chronic-pain .section-text-button .main-section-text {
+        width: 100%;
+    }
+
+    .content-wrapper main.chronic-pain .section-text-button .main-section-text p
+    {
+        font-size: 20px;
+    }
+
+    .content-wrapper main.chronic-pain .section-text-button button{
+        width: 230px;
+        font-size: 16px;
+    }
+
+    .content-wrapper main.chronic-pain .section-1,
+    .content-wrapper main.chronic-pain .section-3
+    {
+        flex-direction: column;
+        padding: 40px 0 0 0;
+    }
+
+    .content-wrapper main.chronic-pain .section-1 .main-section-text,
+    .content-wrapper main.chronic-pain .section-3 .main-section-text{
+        padding: 0 25px;
+        box-sizing: border-box;
+    }
+
+    .content-wrapper main.chronic-pain .section-1 .main-section-content {
+        background: url("../images/web_assets_mobile/chronic-pain/pic1.jpg");
+        min-height: 375px;
+        background-size: cover;
+    }
+
+    .content-wrapper main.chronic-pain .section-2{
+        background: url("../images/web_assets_mobile/chronic-pain/pic2.jpg");
+        background-size: cover;
+    }
+
+    .content-wrapper main.chronic-pain .section-2 .main-section-content {
+        display: none;
+    }
+
+    .content-wrapper main.chronic-pain .section-3 .main-section-content {
+        background: url("../images/web_assets_mobile/chronic-pain/pic3.jpg");
+        background-size: cover;
+        min-height: 266px;
+    }
+
+    .content-wrapper main.chronic-pain .section-4 ul li,
+    .content-wrapper main.chronic-pain .section-5 .main-section-text p,
+    .content-wrapper main.chronic-pain .section-5 .main-section-text ul li
+    {
+        font-size: 20px;
+    }
+
+    .content-wrapper main.chronic-pain .section-5{
+        background: url("../images/web_assets_mobile/chronic-pain/pic4.jpg");
+        background-size: cover;
+    }
+
+    .content-wrapper main.chronic-pain .section-5 .main-section-content {
+        display: none;
+    }
+}

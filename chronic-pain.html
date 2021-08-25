@@ -1,0 +1,142 @@
+---
+canonical_name: neuromovement.html
+layout: default
+title: Chronic Pain
+meta_title: Anat Baniel Method NeuroMovement & Feldenkrais, Natural Chronic Pain Relief
+og_img: web_assets_mobile/home/banner.jpg
+menu_order: 2
+description: Natural Chronic Pain Relief, Explanations and Benefits of the Anat Baniel Method NeuroMovement, Research and Testimonials, about our studio in San Mateo, CA
+banner:
+    title: NeuroMovement<span>&reg; and Chronic Pain</span>
+intro:
+    title: Our Sessions
+    text: During our sessions, you perform various refined movements while being guided by the practitioner through gentle touch and coaching. You discover new ways of movement, without discomfort or unnecessary effort, with greater freedom and a sense of overall lightness and well-being.
+
+highlights:
+    - title: Between your sessions, we coach you on how to integrate changes in your daily life and form new habitual movement patterns.
+      action:
+            call: CONSULT FOR FREE
+            link: signup.html
+    - title: Is NeuroMovement right for you? Find out at our FREE consultation
+      action:
+            call: SIGN UP
+            link: signup.html
+
+details:
+    explanation:
+        title: Explanation
+        text:
+            - We view the nature of the brain and body as the whole human system. We believe that most often, pain comes from the way we have been using our bodies, like standing, sitting, walking, and perform other everyday movements. At the same time, it's also about our perception of what it takes to move, how to apply the effort when something does not work, and what being "ourselves" really means.
+            - The quality of how we learn to move and adapt to changes greatly affects our physical, cognitive, and emotional state. It helps us go through life's stresses, recover from injuries, achieve a higher state of well-being. It give us a higher level of energy, freedom, and creativity. Overall, the more organized movement and thinking patterns help us become more resilient and realize our true potential.
+            - While the original cause of the pain may be an injury or another medical condition, when our ability to move naturally and efficiently is compromised, it affects our ability to self-heal. Many small problems turn into chronic diseases as a result of poor habitual movement patterns.
+            - As we relearn healthier movement patterns, we get better. "Getting better" may carry a very different meaning for different people. For some, it may be a "miracle of healing," while others discover new exciting effects that they would have never thought would occur.
+            - Everyone's experience is their own, and we do not make any "miracle" promises. While many clients call the effects of this work "miracles," we only work together with you to help you recover lost abilities by accessing the brain's power to form new patterns.
+            - While the "visible" focus is on neuro-muscular conditioning and chronic pain relief, these newly acquired skills are ready to be integrated into any daily activity.
+
+    science:
+        title: Science
+        text:
+            - The scientists are now making progress in their research of the relationship between brain and movement, mind and body, and the whole concept that the two are not separated. All of our pain and limitations, whether they stem from physical injuries/conditions, emotional stress, poor habits, self-limiting thinking patterns, are interconnected. We help you start this process of overcoming your limitations by helping you learn how to use less effort and to achieve more outcome naturally.
+            - <a href="https://www.anatbanielmethod.com/about-abm/supporting-research" class="supporting-research">Please review the supporting research</a>
+
+examples:
+    - title: Most common musculoskeletal conditions
+      subtitle:  "that our clients see improved are:"
+      list:
+        - Lower back pain, chronic back pain and scoliosis
+        - Neck and shoulder pain
+        - Hip, knee, and foot pain
+        - Joint pain and arthritis
+        - Repetitive stress injury and carpal tunnel syndrome
+
+    - text: "As NeuroMovement works with the brain and the body as a whole, many of the following clients experience improvements far beyond what is expected:"
+      list:
+        - High-performing athletes, musicians, artists, and CEO’s
+        - People suffering from chronic pain, including back pain, scoliosis, neck, shoulder, and joint pain; or other injuries
+        - People recovering from strokes and brain injuries
+        - Older adults with limited movement, poor balance, or decreasing memory or vitality
+        - Children with Special Needs
+
+---
+
+
+
+
+<main class="chronic-pain">
+    <section class="main-banner">
+        <div>
+            <h1>
+               {{ page.title }}
+            </h1>
+        </div>
+    </section>
+
+    <section class="main-section section-1">
+        <article class="main-section-text">
+            <h1>{{ page.intro.title }}</h1>
+            <p>{{ page.intro.text }}</p>
+        </article>
+        <div class="main-section-content">
+        </div>
+    </section>
+    <section class="main-section section-text-button">
+        <div>
+            <div class="main-section-text">
+                <p>{{ page.highlights[0].title }}</p>
+            </div>
+            <a class="button" href="{{ page.highlights[0].action.link }}">{{ page.highlights[0].action.call }}</a>
+        </div>
+    </section>
+    <section class="main-section section-2">
+        <article class="main-section-text">
+            <h1>{{ page.details.explanation.title}}</h1>
+            {% for t in page.details.explanation.text %}
+                <p>{{ t }}</p>
+            {% endfor %}
+        </article>
+        <div class="main-section-content">
+        </div>
+    </section>
+    <section class="main-section section-3">
+        <article class="main-section-text">
+            <h1>{{ page.details.science.title}}</h1>
+            <p>{{ page.details.science.text[0] }}</p>
+            {{ page.details.science.text[1] }}
+        </article>
+        <div class="main-section-content">
+        </div>
+    </section>
+    <section class="main-section section-4">
+        <article class="main-section-text">
+            <h1>{{ page.examples[0].title}}</h1>
+            <p>{{ page.examples[0].subtitle}}</p>
+        </article>
+        <div class="main-section-content">
+            <ul>
+                {% for li in page.examples[0].list %}
+                <li>{{ li }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+    <section class="main-section section-5">
+        <article class="main-section-text">
+            <h1>{{ page.examples[1].text}}</h1>
+            <ul>
+                {% for li in page.examples[1].list %}
+                <li>{{ li }}</li>
+                {% endfor %}
+            </ul>
+        </article>
+        <div class="main-section-content">
+        </div>
+    </section>
+    <section class="main-section section-text-button section-6">
+        <div>
+            <div class="main-section-text">
+                <p>{{ page.highlights[1].title }}</p>
+            </div>
+            <a class="button" href="{{ page.highlights[1].action.link }}">{{ page.highlights[1].action.call }}</a>
+        </div>
+    </section>
+</main>

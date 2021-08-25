@@ -25,20 +25,25 @@
     color: #684E3A;
 }
 
-.content-wrapper main.our-stories .section-1 .main-section-content .main-section-text .mobile-photo{
+/*.content-wrapper main.our-stories .section-1 .main-section-content .main-section-text .mobile-photo{
     display: none;
+}*/
+
+.content-wrapper main.our-stories .section-1 .main-section-articles #mark.main-section-text .mobile-photo{
+    background: url("../images/web_assets_mobile/our-stories/mark_avatar.png");
+    background-size: cover;
 }
 
-.content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo.mark{
-    background: url("../images/web_assets_desktop/our-stories/mark_avatar.jpg") center;
+.content-wrapper main.our-stories .section-1 .main-section-articles #olga.main-section-text .mobile-photo{
+    background: url("../images/web_assets_mobile/our-stories/olga_avatar.png");
     background-size: cover;
-    flex-grow: 1;
 }
 
-.content-wrapper main.our-stories .section-1 .main-section-content .section-content-photo.olga{
-    background: url("../images/web_assets_desktop/our-stories/olga_avatar.jpg") center;
-    background-size: cover;
-    flex-grow: 1;
+.content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text .mobile-photo{
+    display: block;
+    width: 175px;
+    height: 175px;
+    margin: 25px auto;
 }
 
 .content-wrapper main.our-stories .main-text-slider{
@@ -49,42 +54,43 @@
     color: #FF9F2E;
 }
 
+.content-wrapper main.our-stories .main-banner h1{
+    color: #684D3A;
+}
+
+.content-wrapper main.our-stories .section-1{
+    padding: 0;
+}
+
+.content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text .mobile-photo{
+    display: block;
+    width: 175px;
+    height: 175px;
+    margin: 25px auto;
+}
+
+.content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text{
+    padding: 40px 25px;
+}
+
+/*.content-wrapper main.our-stories .section-1 .main-section-articles #mark.main-section-text{*/
+/*    background-color: #4EADC2 !important;*/
+/*    color: white;*/
+/*}*/
+
+.content-wrapper main.our-stories .section-1 .main-section-articles #mark.main-section-text .mobile-photo{
+    background: url("../images/web_assets_mobile/our-stories/mark_avatar.png");
+    background-size: cover;
+}
+
+.content-wrapper main.our-stories .section-1 .main-section-articles #olga.main-section-text .mobile-photo{
+    background: url("../images/web_assets_mobile/our-stories/olga_avatar.png");
+    background-size: cover;
+}
+
 @media (max-width: 768px) {
     .content-wrapper main.our-stories .main-banner {
         background: url("../images/web_assets_mobile/our-stories/banner.jpg");
-        background-size: cover;
-    }
-    .content-wrapper main.our-stories .main-banner h1{
-        color: #684D3A;
-    }
-
-    .content-wrapper main.our-stories .section-1{
-        padding: 0;
-    }
-
-    .content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text .mobile-photo{
-        display: block;
-        width: 175px;
-        height: 175px;
-        margin: 25px auto;
-    }
-
-    .content-wrapper main.our-stories .section-1 .main-section-articles .main-section-text{
-        padding: 40px 25px;
-    }
-
-    .content-wrapper main.our-stories .section-1 .main-section-articles #mark.main-section-text{
-        background-color: #4EADC2 !important;
-        color: white;
-    }
-
-    .content-wrapper main.our-stories .section-1 .main-section-articles #mark.main-section-text .mobile-photo{
-        background: url("../images/web_assets_mobile/our-stories/mark_avatar.png");
-        background-size: cover;
-    }
-
-    .content-wrapper main.our-stories .section-1 .main-section-articles #olga.main-section-text .mobile-photo{
-        background: url("../images/web_assets_mobile/our-stories/olga_avatar.png");
         background-size: cover;
     }
 }
