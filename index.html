@@ -9,8 +9,17 @@ exclude: true
 include_testimonials: true
 banner:
     title: "Anat Baniel Method<span>&reg;</span> (ABM) NeuroMovement<span>&reg;</span>"
-    call: LEARN MORE
-    link: neuromovement.html
+    list:
+        -
+            call: Natural Chronic Pain Relief
+            link: chronic-pain.html
+        -
+            call: Children with Special Needs
+            link: special-kids.html
+        -
+            call: Increase Vitality & Performance
+            link: high-performers.html
+
 intro:
     text:  Exercise your brain's ability to organize movement and thinking without pain, limitations, or unnecessary efforts.
 details:
@@ -29,7 +38,7 @@ highlight:
     title: Find out more about our NeuroMovement sessions for adults with chronic pain & children with special needs
     action:
         call: LEARN MORE
-        link: neuromovement.html
+        link: chronic-pain.html
 corporate_highlight:
     title: "We also collaborate with Physical and Occupational Therapists"
     action:
@@ -46,7 +55,13 @@ corporate_highlight:
                 <h1>
                     {{ page.banner.title }}
                 </h1>
-                <a href="{{ page.banner.link }}">{{ page.banner.call }}</a>
+                <ul>
+                    {% for i in page.banner.list %}
+                        <li>
+                            <a href="{{ i.link }}">{{ i.call}}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
             </div>
         </section>
 

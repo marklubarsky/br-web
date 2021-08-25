@@ -323,6 +323,11 @@ label.custom-select {
     color: #7DA444;
 }
 
+.content-wrapper main .main-banner ul {
+    color: #7DA444;
+    list-style-type: none;
+}
+
 .content-wrapper main .main-section {
     display: flex;
     justify-content: space-between;

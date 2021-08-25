@@ -7,6 +7,24 @@
     color: #fff;
 }
 
+.content-wrapper main.chronic-pain .main-banner h1{
+    color: white;
+    margin-bottom: 80px;
+}
+
+.content-wrapper main.chronic-pain .main-banner-section{
+    color: white;
+    width: 75%;
+    position: absolute;
+    top: 230px;
+    z-index: 2;
+}
+
+.content-wrapper main.chronic-pain .main-banner-section p{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .content-wrapper main.chronic-pain .main-section {
     padding-top: 0;
     padding-bottom: 0;
@@ -18,6 +36,10 @@
 
 .content-wrapper main.chronic-pain .main-section .main-section-text {
     padding: 40px 0;
+}
+
+.content-wrapper main .section-2 > article {
+    width: 100%;
 }
 
 .content-wrapper main.chronic-pain .section-1,
@@ -94,10 +116,22 @@
     color: #6D764E;
 }
 
+@media (max-width: 1200px) {
+    .content-wrapper main.chronic-pain .main-banner-section{
+        padding-left: 140px;
+        width: 90%;
+        top: 180px;
+    }
+}
+
 @media (max-width: 1030px) {
     .content-wrapper main.chronic-pain .section-text-button,
     .content-wrapper main.chronic-pain .section-4 {
         padding: 40px 25px;
+    }
+
+    .content-wrapper main.chronic-pain .main-banner-section{
+        padding-left: 25px;
     }
 }
 
@@ -113,6 +147,15 @@
 
     .content-wrapper main.chronic-pain .main-banner > div h1 {
         color: #684D3A;
+    }
+
+    .content-wrapper main.chronic-pain .main-banner-section{
+        background-color: #4EADC2;
+        width: 100%;
+        position: static;
+        display: block;
+        z-index: 2;
+        padding-left: 25px;
     }
 
     .content-wrapper main.chronic-pain .section-text-button .main-section-text {
@@ -178,4 +221,70 @@
     .content-wrapper main.chronic-pain .section-5 .main-section-content {
         display: none;
     }
+}
+
+.content-wrapper main.chronic-pain .main-banner {
+    background: url("../images/web_assets_desktop/chronic-pain/banner.jpg");
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.content-wrapper main.chronic-pain .main-banner h1{
+    color: white;
+    margin-bottom: 80px;
+}
+
+.content-wrapper main.chronic-pain .main-banner-section{
+    color: white;
+    width: 75%;
+    position: absolute;
+    top: 230px;
+    z-index: 2;
+}
+
+
+@media (max-width: 1200px) {
+    .content-wrapper main.chronic-pain .main-banner-section{
+        padding-left: 140px;
+        width: 90%;
+        top: 180px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .content-wrapper main.chronic-pain .main-banner > div {
+        margin-left: 25px;
+    }
+
+    .content-wrapper main.chronic-pain .main-banner-section{
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-wrapper main.chronic-pain .main-banner {
+        background: url("../images/web_assets_mobile/chronic-pain/banner.jpg") no-repeat top;
+        background-size: cover;
+    }
+
+    .content-wrapper main.chronic-pain .main-banner-section{
+        background-color: #4EADC2;
+        width: 100%;
+        position: static;
+        display: block;
+        z-index: 2;
+        padding-left: 25px;
+    }
+
+    .content-wrapper main.chronic-pain .main-banner h1{
+        margin-bottom: 25px;
+        color: #684D3A;
+    }
+
+    .content-wrapper main.chronic-pain .main-banner-section p{
+        background-color: #4EADC2;
+        font-size: 20px;
+    }
+
 }
