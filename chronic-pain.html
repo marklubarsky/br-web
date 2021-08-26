@@ -1,14 +1,14 @@
 ---
 canonical_name: neuromovement.html
 layout: default
-title: Chronic Pain
-meta_title: Anat Baniel Method NeuroMovement & Feldenkrais, Natural Chronic Pain Relief
+title: Natural Chronic Pain Relief
+meta_title: ABM NeuroMovement for Lingering Chronic Pain
 og_img: web_assets_mobile/home/banner.jpg
 menu_order: 2
-description: Natural Chronic Pain Relief, Explanations and Benefits of the Anat Baniel Method NeuroMovement, Research and Testimonials, about our studio in San Mateo, CA
+description: ABM NeuroMovement (Feldenkrais-inspired method) practitioners in San Mateo, CA | Overcome limitations and lingering aches and pains
 banner:
     intro: Overcome lingering pain and limitations, enhancing your natural abilities to self-discover new ways to move and feel.
-title: Chronic Pain Relief
+title: Natural Chronic Pain Relief
 
 intro:
     title: Our Sessions
@@ -81,7 +81,7 @@ examples:
 
     <section class="main-section section-1">
         <article class="main-section-text">
-            <h1>{{ page.intro.title }}</h1>
+            <h2>{{ page.intro.title }}</h2>
             <p>{{ page.intro.text }}</p>
         </article>
         <div class="main-section-content">
@@ -97,7 +97,7 @@ examples:
     </section>
     <section class="main-section section-2">
         <article class="main-section-text">
-            <h1>{{ page.details.explanation.title}}</h1>
+            <h2>{{ page.details.explanation.title}}</h2>
             {% for t in page.details.explanation.text %}
                 <p>{{ t }}</p>
             {% endfor %}
@@ -105,7 +105,7 @@ examples:
     </section>
     <section class="main-section section-3">
         <article class="main-section-text">
-            <h1>{{ page.details.science.title}}</h1>
+            <h2>{{ page.details.science.title}}</h2>
             <p>{{ page.details.science.text[0] }}</p>
             {{ page.details.science.text[1] }}
         </article>
@@ -114,7 +114,7 @@ examples:
     </section>
     <section class="main-section section-4">
         <article class="main-section-text">
-            <h1>{{ page.examples[0].title}}</h1>
+            <h2>{{ page.examples[0].title}}</h2>
             <p>{{ page.examples[0].subtitle}}</p>
         </article>
         <div class="main-section-content">
@@ -127,7 +127,7 @@ examples:
     </section>
     <section class="main-section section-5">
         <article class="main-section-text">
-            <h1>{{ page.examples[1].text}}</h1>
+            <h2>{{ page.examples[1].text}}</h2>
             <ul>
                 {% for li in page.examples[1].list %}
                 <li>{{ li }}</li>

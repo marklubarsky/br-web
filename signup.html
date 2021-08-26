@@ -5,7 +5,7 @@ title: Sign Up
 meta_title: Sign Up for ABM NeuroMovement & Feldenkrais
 menu_order: 6
 exclude: true
-description: Signup for Intensive Anat Baniel Method NeuroMovement (inspired by Feldenkrais)
+description: Signup for Anat Baniel Method NeuroMovement (inspired by Feldenkrais)
 
 intensives:
     title: 4-week intensives Program
@@ -83,23 +83,23 @@ gift:
     </section>
     <section class="main-section section-1">
         <article class="main-section-text">
-            <h1 class="article-title">{{page.intensives.title}}</h1>
+            <h2 class="article-title">{{page.intensives.title}}</h2>
             <p>
                 {{page.intensives.text}}
             </p>
             <!--<a href="{{page.intensives.action.link}}" class="button sign-up-button">{{page.intensives.action.call}}</a>-->
         </article>
         <article class="main-section-content">
-            <h1>{{page.intensives.details[0].title}}</h1>
+            <h2>{{page.intensives.details[0].title}}</h2>
             <!--<p>{{page.intensives.details[0].subtitle}}</p>-->
             {% include newsletter-form.html %}
-            <h1>{{page.intensives.details[1].title}}</h1>
+            <h2>{{page.intensives.details[1].title}}</h2>
             <a href="{{page.intensives.details[1].action.link}}" class="button sign-up-button">{{page.intensives.details[1].action.call}}</a>
         </article>
     </section>
     <section class="main-section section-2">
         <article class="main-section-text">
-            <h1 class="article-title">{{page.maintenance.title}}</h1>
+            <h2 class="article-title">{{page.maintenance.title}}</h2>
             {% for maintenance in page.maintenance.list %}
                 <p>
                     {{maintenance.subtitle}}                    
@@ -109,7 +109,7 @@ gift:
             {% endfor %}
         </article>
         <article class="main-section-content">
-            <h1 class="article-title">{{page.prepare.title}}</h1>
+            <h2 class="article-title">{{page.prepare.title}}</h2>
             {% for a in page.prepare.list %}
                 <a href="{{a.action.link}}">{{a.action.call}}</a>
                 <br>
@@ -118,7 +118,7 @@ gift:
     </section>
     <section class="main-section section-3">
         <article class="main-section-text">
-            <h1 class="article-title">{{page.events.title}}</h1>
+            <h2 class="article-title">{{page.events.title}}</h2>
             <div class="main-section-events">
                 {% for event in page.events.list %}
                     <div class="event-item">
@@ -133,14 +133,14 @@ gift:
     </section>
     <section class="main-section section-4">
         <article class="main-section-text">
-            <h1 class="article-title">{{page.promotion.title}}</h1>
+            <h2 class="article-title">{{page.promotion.title}}</h2>
             <p>
                 {{page.promotion.action.title}}
             </p>
             <a class="button sign-up-button" href="{{page.promotion.action.link}}">{{page.promotion.action.call}}</a>
         </article>
         <article class="main-section-content">
-            <h1 class="article-title">{{page.gift.title}}</h1>
+            <h2 class="article-title">{{page.gift.title}}</h2>
             <!--<div class="section-double-selector">-->
                 <!--<label class="custom-select">-->
                     <!--<select>-->

@@ -9,13 +9,16 @@
     color: white;
     margin-bottom: 80px;
 }
-
-.content-wrapper main.special-kids .main-banner-section{
+.content-wrapper main.special-kids .main-banner-section {
     color: white;
     width: 75%;
     position: absolute;
     top: 230px;
     z-index: 2;
+}
+
+.content-wrapper main.special-kids .main-banner-section p {
+    margin-top: 1em;
 }
 
 .content-wrapper main.special-kids .section-1,
