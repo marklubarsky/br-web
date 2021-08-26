@@ -2,6 +2,10 @@
     background: url("../images/web_assets_desktop/home/banner.jpg");
 }
 
+.content-wrapper main .main-banner h1 {
+    font-size: 28px;
+}
+
 .content-wrapper main.home-page .main-text-slider{
     background: #4EADC2;
 }
@@ -257,6 +261,10 @@
 }
 
 @media (max-width: 375px) {
+    .content-wrapper main .main-banner > div h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
     .content-wrapper main.home-page .section-3 .main-section-content div.content-book-2{
         margin-left: 0;
     }

@@ -18,7 +18,7 @@
 }
 
 .content-wrapper main.special-kids .main-banner-section p {
-    margin-top: 1em;
+    padding-top: 1em;
 }
 
 .content-wrapper main.special-kids .section-1,
@@ -103,6 +103,7 @@
     .content-wrapper main.special-kids .main-banner-section p{
         background-color: #4EADC2;
         font-size: 20px;
+        padding-top: 0;
     }
 
     .content-wrapper main.special-kids .section-1{
