@@ -20,7 +20,7 @@
     min-height: 210px;
 }
 
-.content-wrapper main.home-page .section-1 .main-section-text p {
+.content-wrapper main.home-page .section-1 .main-section-text {
     color: #684E3A;
 }
 
@@ -142,7 +142,7 @@
     height: 405px;
 }
 
-.content-wrapper main.home-page .section-3 .main-section-text p {
+.content-wrapper main.home-page .section-3 .main-section-text {
     color: #684E3A;
 }
 

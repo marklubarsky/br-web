@@ -7,7 +7,7 @@
     min-height: 323px;
 }
 
-.content-wrapper main.sign-up-page .section-1 article h1{
+.content-wrapper main.sign-up-page .section-1 article h2{
     color: #FFFFFF;
 }
 
@@ -46,11 +46,11 @@
     padding: 40px 140px 40px 2%;
 }
 
-.content-wrapper main.sign-up-page .section-2 article:first-of-type h1{
+.content-wrapper main.sign-up-page .section-2 article:first-of-type h2{
     color: #684E3A;
 }
 
-.content-wrapper main.sign-up-page .section-2 article:last-of-type h1{
+.content-wrapper main.sign-up-page .section-2 article:last-of-type h2{
     color: #FEFEFE;
 }
 
@@ -89,7 +89,7 @@
     width: 100%;
 }
 
-.content-wrapper main.sign-up-page .section-3 article h1{
+.content-wrapper main.sign-up-page .section-3 article h2{
     color: #FFFFFF;
 }
 
@@ -143,11 +143,11 @@
     padding: 40px 140px 40px 2%;
 }
 
-.content-wrapper main.sign-up-page .section-4 article:first-of-type h1{
+.content-wrapper main.sign-up-page .section-4 article:first-of-type h2{
     color: #ffffff;
 }
 
-.content-wrapper main.sign-up-page .section-4 article:last-of-type h1{
+.content-wrapper main.sign-up-page .section-4 article:last-of-type h2{
     color: #FEFEFE;
 }
 
@@ -227,14 +227,14 @@
         box-sizing: border-box;
     }
 
-    .content-wrapper main.sign-up-page .main-section article h1{
+    .content-wrapper main.sign-up-page .main-section article h2{
         border-top: 2px solid white;
         text-align: center;
         padding: 25px;
         margin: 0;
     }
 
-    .content-wrapper main.sign-up-page .main-section article h1.article-title{
+    .content-wrapper main.sign-up-page .main-section article h2.article-title{
         border-bottom: 2px solid white;
         font-size: 16px;
         text-transform: uppercase;
@@ -266,8 +266,8 @@
         background-color: #F8F8F0;
     }
 
-    .content-wrapper main.sign-up-page .section-2 article:first-of-type h1,
-    .content-wrapper main.sign-up-page .section-3 article h1.article-title{
+    .content-wrapper main.sign-up-page .section-2 article:first-of-type h2,
+    .content-wrapper main.sign-up-page .section-3 article h2.article-title{
         color: #6D764E;
         border-color: #6D764E;
     }
@@ -276,7 +276,7 @@
         padding: 0 0 20px 0;
     }
 
-    .content-wrapper main.sign-up-page .section-2 article:last-of-type h1{
+    .content-wrapper main.sign-up-page .section-2 article:last-of-type h2{
         border-color: #FFFFFF;
         margin-bottom: 20px;
     }
